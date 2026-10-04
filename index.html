@@ -1,0 +1,2992 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura Fitness Club — Premium Gym in Hadapsar, Pune | Build Your Stronger Self</title>
+<meta name="description" content="Aura Fitness Club is Hadapsar's premium luxury gym in Pune offering strength training, personal training, weight loss programs, cardio, zumba, yoga, kickboxing & functional training. Book a free trial today.">
+<meta name="keywords" content="gym in Hadapsar, gym in Pune, Aura Fitness Club, personal training Pune, weight loss gym Hadapsar, luxury gym Pune, fitness club Hadapsar">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:title" content="Aura Fitness Club — Premium Gym in Hadapsar, Pune">
+<meta property="og:description" content="Build your stronger self. Premium strength, conditioning & transformation coaching in Hadapsar, Pune.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthClub",
+  "name": "Aura Fitness Club",
+  "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+  "description": "Premium luxury gym and fitness club in Hadapsar, Pune offering strength training, personal training, group classes and transformation programs.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Magarpatta Road, Hadapsar",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "411028",
+    "addressCountry": "IN"
+  },
+  "telephone": "+91-98765-43210",
+  "priceRange": "₹₹",
+  "openingHours": ["Mo-Fr 05:30-23:00", "Sa-Su 06:00-22:00"],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "412" }
+}
+</script>
+<style>
+/* ============ CORE ============ */
+:root{
+  --ink:#0a0a0a;
+  --ink-2:#121212;
+  --ink-3:#1a1a1a;
+  --line:rgba(255,255,255,.12);
+  --bone:#f4f2ef;
+  --bone-2:#e8e5e0;
+  --muted:#a3a09b;
+  --muted-dark:#6e6b67;
+  --red:#e0202b;
+  --red-lt:#ff3b3b;
+  --red-dk:#a8121b;
+  --radius:18px;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --nav-h:78px;
+  --max:1280px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--ink);color:var(--bone);
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:16px;line-height:1.65;overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3,h4,h5{margin:0;line-height:1.02;font-family:'Anton',Impact,sans-serif;font-weight:400;letter-spacing:.005em;text-transform:uppercase}
+p{margin:0 0 1rem}
+::selection{background:var(--red);color:#fff}
+:focus-visible{outline:2px solid var(--red-lt);outline-offset:3px;border-radius:4px}
+
+/* noise */
+.noise{
+  position:fixed;inset:0;pointer-events:none;z-index:9998;opacity:.035;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ============ LAYOUT ============ */
+.wrap{width:min(100% - 40px,var(--max));margin-inline:auto}
+.section{position:relative;padding:clamp(72px,10vw,132px) 0}
+.section-dark{background:var(--ink)}
+.section-alt{background:var(--ink-2)}
+.section-light{background:var(--bone);color:var(--ink)}
+.section-light .eyebrow{color:var(--red-dk)}
+.section-light .lead{color:#4b4844}
+.section-light .muted{color:var(--muted-dark)}
+
+/* ============ TYPE ============ */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:600;
+  letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin-bottom:22px;
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--red);flex:none}
+.display-xl{font-size:clamp(2.9rem,9.2vw,7.6rem);line-height:.9;letter-spacing:-.015em}
+.display-lg{font-size:clamp(2.35rem,6.2vw,5rem);line-height:.94;letter-spacing:-.012em}
+.display-md{font-size:clamp(1.85rem,3.9vw,3.15rem);line-height:1}
+.display-sm{font-size:clamp(1.35rem,2.3vw,1.85rem);line-height:1.12}
+.lead{font-size:clamp(1.02rem,1.55vw,1.24rem);line-height:1.72;color:#c8c5c0;font-weight:300}
+.muted{color:var(--muted)}
+.accent{color:var(--red-lt)}
+.outline-text{
+  color:transparent;-webkit-text-stroke:1.4px rgba(244,242,239,.34);
+}
+.section-light .outline-text{-webkit-text-stroke-color:rgba(10,10,10,.28)}
+.serif-num{font-family:'Anton',sans-serif}
+
+/* ============ BUTTONS ============ */
+.btn{
+  position:relative;display:inline-flex;align-items:center;justify-content:center;gap:11px;
+  padding:17px 34px;border-radius:100px;border:1px solid transparent;cursor:pointer;
+  font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  transition:transform .5s var(--ease),background .35s ease,color .35s ease,border-color .35s ease,box-shadow .5s ease;
+  overflow:hidden;white-space:nowrap;isolation:isolate;
+}
+.btn-primary{background:var(--red);color:#fff;box-shadow:0 14px 34px -14px rgba(224,32,43,.72)}
+.btn-primary:hover{background:var(--red-lt);box-shadow:0 22px 50px -14px rgba(224,32,43,.72)}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:#222}
+.btn-ghost{background:transparent;color:var(--bone);border-color:rgba(244,242,239,.3)}
+.btn-ghost:hover{background:var(--bone);color:var(--ink);border-color:var(--bone)}
+.section-light .btn-ghost{color:var(--ink);border-color:rgba(10,10,10,.25)}
+.section-light .btn-ghost:hover{background:var(--ink);color:var(--bone)}
+.btn .arw{transition:transform .45s var(--ease)}
+.btn:hover .arw{transform:translateX(5px)}
+.btn::after{
+  content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,transparent 25%,rgba(255,255,255,.32),transparent 75%);
+  transform:translateX(-120%);transition:transform .8s var(--ease);
+}
+.btn:hover::after{transform:translateX(120%)}
+.btn-sm{padding:13px 24px;font-size:11px;letter-spacing:.14em}
+
+/* ============ NAV ============ */
+.progress-bar{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--red),var(--red-lt));z-index:1001;transition:width .12s linear}
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--nav-h);
+  display:flex;align-items:center;transition:background .5s ease,backdrop-filter .5s ease,height .4s var(--ease),box-shadow .5s ease;
+}
+.nav.scrolled{height:66px;background:rgba(10,10,10,.82);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.nav-inner{width:min(100% - 40px,var(--max));margin-inline:auto;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.logo{display:flex;align-items:center;gap:11px;flex:none}
+.logo-mark{
+  width:38px;height:38px;border-radius:11px;background:var(--red);display:grid;place-items:center;
+  font-family:'Anton',sans-serif;font-size:19px;color:#fff;letter-spacing:0;
+  box-shadow:0 10px 24px -10px rgba(224,32,43,.8);
+}
+.logo-text{font-family:'Anton',sans-serif;font-size:19px;letter-spacing:.02em;line-height:1}
+.logo-text small{display:block;font-family:'Inter',sans-serif;font-size:8.5px;letter-spacing:.34em;font-weight:600;color:var(--muted);margin-top:3px}
+.nav-links{display:flex;align-items:center;gap:4px}
+.nav-links a{
+  position:relative;padding:9px 13px;font-size:11.6px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+  color:rgba(244,242,239,.72);transition:color .3s ease;border-radius:8px;
+}
+.nav-links a::after{
+  content:"";position:absolute;left:13px;right:13px;bottom:4px;height:1.5px;background:var(--red);
+  transform:scaleX(0);transform-origin:left;transition:transform .45s var(--ease);
+}
+.nav-links a:hover{color:#fff}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1)}
+.nav-links a.active{color:#fff}
+.nav-cta{display:flex;align-items:center;gap:10px}
+.burger{display:none;width:46px;height:46px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.05);cursor:pointer;position:relative}
+.burger span{position:absolute;left:13px;width:20px;height:1.7px;background:var(--bone);transition:transform .45s var(--ease),opacity .3s}
+.burger span:nth-child(1){top:18px}.burger span:nth-child(2){top:23px}.burger span:nth-child(3){top:28px}
+.burger.open span:nth-child(1){transform:translateY(5px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:translateY(-5px) rotate(-45deg)}
+.mobile-menu{
+  position:fixed;inset:0;background:var(--ink);z-index:999;padding:calc(var(--nav-h) + 26px) 24px 40px;
+  display:flex;flex-direction:column;justify-content:space-between;
+  clip-path:circle(0% at calc(100% - 46px) 40px);transition:clip-path .8s var(--ease);pointer-events:none;
+}
+.mobile-menu.open{clip-path:circle(150% at calc(100% - 46px) 40px);pointer-events:auto}
+.mm-links{display:flex;flex-direction:column;gap:2px;overflow-y:auto}
+.mm-links a{
+  font-family:'Anton',sans-serif;font-size:clamp(1.75rem,8vw,2.55rem);line-height:1.18;text-transform:uppercase;
+  color:rgba(244,242,239,.92);opacity:0;transform:translateY(26px);transition:opacity .55s var(--ease),transform .55s var(--ease),color .3s;
+}
+.mm-links a:hover{color:var(--red-lt)}
+.mobile-menu.open .mm-links a{opacity:1;transform:none}
+.mm-foot{display:flex;flex-wrap:wrap;gap:12px;padding-top:24px;border-top:1px solid var(--line)}
+
+/* ============ HERO ============ */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;padding-bottom:clamp(38px,6vw,74px)}
+.hero-media{position:absolute;inset:-8% 0 -8% 0;z-index:0;will-change:transform}
+.hero-media img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.12) brightness(.62);transform:scale(1.06);animation:kenburns 22s ease-in-out infinite alternate}
+@keyframes kenburns{from{transform:scale(1.06) translate3d(0,0,0)}to{transform:scale(1.18) translate3d(-2%,-1.6%,0)}}
+.hero-overlay{
+  position:absolute;inset:0;z-index:1;
+  background:
+    linear-gradient(to top,rgba(10,10,10,1) 2%,rgba(10,10,10,.66) 32%,rgba(10,10,10,.28) 62%,rgba(10,10,10,.72) 100%),
+    linear-gradient(105deg,rgba(224,32,43,.16),transparent 55%);
+}
+.hero-content{position:relative;z-index:3;width:100%}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:40px;align-items:flex-end}
+.hero h1{margin-bottom:26px}
+.hero h1 .line{display:block;overflow:hidden;padding-bottom:.06em}
+.hero h1 .word{display:inline-block;transform:translateY(110%);opacity:0;transition:transform 1.05s var(--ease),opacity .9s ease}
+.hero.loaded h1 .word{transform:translateY(0);opacity:1}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;opacity:0;transform:translateY(24px);transition:opacity .9s .55s ease,transform .9s .55s var(--ease)}
+.hero.loaded .hero-actions{opacity:1;transform:none}
+.hero-sub{max-width:560px;opacity:0;transform:translateY(20px);transition:opacity .9s .38s ease,transform .9s .38s var(--ease)}
+.hero.loaded .hero-sub{opacity:1;transform:none}
+.hero-stats{display:flex;flex-direction:column;gap:12px;min-width:236px}
+.float-card{
+  background:rgba(18,18,18,.55);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.13);border-radius:16px;padding:16px 20px;
+  opacity:0;transform:translateY(30px);transition:opacity .9s var(--ease),transform .9s var(--ease),border-color .4s;
+}
+.float-card:hover{border-color:rgba(224,32,43,.55)}
+.hero.loaded .float-card{opacity:1;transform:none}
+.hero.loaded .float-card:nth-child(1){transition-delay:.75s}
+.hero.loaded .float-card:nth-child(2){transition-delay:.88s}
+.hero.loaded .float-card:nth-child(3){transition-delay:1.01s}
+.float-card .num{font-family:'Anton',sans-serif;font-size:1.85rem;line-height:1;letter-spacing:.01em}
+.float-card .lbl{font-size:10.2px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:5px}
+.scroll-hint{
+  position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:4;display:flex;flex-direction:column;align-items:center;gap:8px;
+  font-size:9.5px;letter-spacing:.32em;text-transform:uppercase;color:rgba(244,242,239,.6);
+}
+.scroll-hint .track{width:1px;height:52px;background:rgba(244,242,239,.22);position:relative;overflow:hidden}
+.scroll-hint .track::after{content:"";position:absolute;top:-52px;left:0;width:1px;height:52px;background:var(--red-lt);animation:scrolldot 2.1s var(--ease) infinite}
+@keyframes scrolldot{0%{top:-52px}60%,100%{top:52px}}
+
+/* ============ MARQUEE ============ */
+.marquee{
+  position:relative;overflow:hidden;background:var(--red);color:#fff;padding:17px 0;
+  border-top:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14);
+}
+.marquee-track{display:flex;width:max-content;animation:marq 34s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee-item{display:flex;align-items:center;gap:30px;padding-right:30px;font-family:'Anton',sans-serif;font-size:clamp(1.15rem,2.1vw,1.72rem);letter-spacing:.045em;text-transform:uppercase;white-space:nowrap}
+.marquee-item .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.85)}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ============ REVEAL ============ */
+[data-reveal]{opacity:0;transform:translateY(30px);transition:opacity .95s var(--ease),transform .95s var(--ease);transition-delay:var(--d,0s)}
+[data-reveal="left"]{transform:translateX(-42px)}
+[data-reveal="right"]{transform:translateX(42px)}
+[data-reveal="scale"]{transform:scale(.93)}
+[data-reveal="fade"]{transform:none}
+[data-reveal].in{opacity:1;transform:none}
+.img-reveal{position:relative;overflow:hidden;border-radius:var(--radius);background:#181818}
+.img-reveal img{width:100%;height:100%;object-fit:cover;transform:scale(1.16);filter:grayscale(.55) contrast(1.06);transition:transform 1.5s var(--ease),filter 1.1s ease}
+.img-reveal.in img{transform:scale(1)}
+.img-reveal:hover img{filter:grayscale(0) contrast(1.06);transform:scale(1.055)}
+.img-reveal::after{
+  content:"";position:absolute;inset:0;background:var(--ink);transform-origin:right;
+  transform:scaleX(1);transition:transform 1.15s var(--ease);
+}
+.img-reveal.in::after{transform:scaleX(0)}
+.word-mask{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.07em}
+.split-word{display:inline-block;transform:translateY(112%);opacity:0;transition:transform 1s var(--ease),opacity .85s ease}
+[data-split].in .split-word{transform:translateY(0);opacity:1}
+
+/* ============ SECTION HEADS ============ */
+.head-row{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(26px,5vw,70px);align-items:end;margin-bottom:clamp(38px,5vw,64px)}
+.rule{height:1px;background:linear-gradient(90deg,var(--red),rgba(255,255,255,.08));transform:scaleX(0);transform-origin:left;transition:transform 1.15s var(--ease);margin-bottom:26px}
+.section-light .rule{background:linear-gradient(90deg,var(--red),rgba(10,10,10,.1))}
+.rule.in{transform:scaleX(1)}
+
+/* ============ CARDS ============ */
+.card{
+  position:relative;background:var(--ink-3);border:1px solid var(--line);border-radius:var(--radius);
+  padding:30px;overflow:hidden;transition:transform .65s var(--ease),border-color .5s ease,background .5s ease;
+}
+.card:hover{transform:translateY(-8px);border-color:rgba(224,32,43,.5);background:#1f1f1f}
+.card .num-tag{font-family:'Anton',sans-serif;font-size:13px;letter-spacing:.22em;color:var(--red-lt);margin-bottom:18px;display:block}
+.card h3{font-size:1.28rem;margin-bottom:11px;letter-spacing:.012em}
+.card p{font-size:.945rem;color:var(--muted);margin:0;line-height:1.7}
+.card-light{background:#fff;border-color:rgba(10,10,10,.09)}
+.card-light:hover{background:#fff;border-color:rgba(224,32,43,.42)}
+.card-light p{color:#5c5955}
+.card-light h3{color:var(--ink)}
+.icon-\boxed{
+  width:52px;height:52px;border-radius:14px;display:grid;place-items:center;margin-bottom:20px;
+  background:rgba(224,32,43,.13);color:var(--red-lt);border:1px solid rgba(224,32,43,.24);
+  transition:transform .55s var(--ease),background .45s,color .45s;
+}
+.card:hover .icon-\boxed{transform:rotate(-8deg) scale(1.07);background:var(--red);color:#fff}
+.section-light .icon-\boxed{background:rgba(224,32,43,.1);color:var(--red-dk);border-color:rgba(224,32,43,.18)}
+.section-light .card:hover .icon-\boxed{background:var(--red);color:#fff}
+
+/* ============ ABOUT ============ */
+.about-grid{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,1fr);gap:clamp(30px,5.5vw,74px);align-items:center}
+.about-stack{position:relative}
+.about-stack .main-img{aspect-ratio:4/5;border-radius:22px}
+.about-stack .sub-img{
+  position:absolute;right:-6%;bottom:-7%;width:47%;aspect-ratio:1/1;border-radius:18px;
+  border:8px solid var(--ink);box-shadow:0 30px 70px -22px rgba(0,0,0,.75);
+}
+.experience-badge{
+  position:absolute;left:-16px;top:22px;background:var(--red);color:#fff;border-radius:16px;padding:16px 22px;
+  box-shadow:0 22px 48px -18px rgba(224,32,43,.8);
+}
+.experience-badge .n{font-family:'Anton',sans-serif;font-size:2.15rem;line-height:1}
+.experience-badge .t{font-size:9.6px;letter-spacing:.22em;text-transform:uppercase;opacity:.92;margin-top:3px}
+.feature-list{display:grid;gap:16px;margin:28px 0 32px}
+.feature-item{display:flex;gap:15px;align-items:flex-start}
+.feature-item .tick{
+  flex:none;width:26px;height:26px;border-radius:50%;background:rgba(224,32,43,.15);border:1px solid rgba(224,32,43,.35);
+  display:grid;place-items:center;margin-top:3px;
+}
+.feature-item h4{font-family:'Inter',sans-serif;font-size:.985rem;font-weight:700;letter-spacing:.005em;text-transform:none;margin-bottom:3px}
+.feature-item p{font-size:.925rem;margin:0}
+
+/* ============ STATS BAND ============ */
+.stats-band{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:22px;overflow:hidden;
+}
+.stat-cell{background:var(--ink);padding:clamp(26px,3.6vw,42px) 22px;text-align:center;position:relative;overflow:hidden}
+.stat-cell::before{content:"";position:absolute;inset:auto 0 0 0;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .8s var(--ease)}
+.stat-cell:hover::before{transform:scaleX(1)}
+.stat-cell .v{font-family:'Anton',sans-serif;font-size:clamp(2.15rem,4.6vw,3.55rem);line-height:1;letter-spacing:-.01em}
+.stat-cell .l{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:11px}
+
+/* ============ PROGRAMS ============ */
+.filter-row{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:34px}
+.chip{
+  padding:11px 21px;border-radius:100px;border:1px solid var(--line);background:transparent;cursor:pointer;
+  font-size:11px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);
+  transition:all .42s var(--ease);
+}
+.chip:hover{color:#fff;border-color:rgba(244,242,239,.42);transform:translateY(-2px)}
+.chip.active{background:var(--red);color:#fff;border-color:var(--red);box-shadow:0 12px 30px -12px rgba(224,32,43,.8)}
+.prog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.prog-card{
+  position:relative;border-radius:20px;overflow:hidden;min-height:392px;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:28px;cursor:pointer;isolation:isolate;background:#161616;
+  transition:transform .7s var(--ease),opacity .5s ease;
+}
+.prog-card:hover{transform:translateY(-9px)}
+.prog-card .bg{position:absolute;inset:0;z-index:-2}
+.prog-card .bg img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) brightness(.55);transition:transform 1.15s var(--ease),filter .8s ease}
+.prog-card:hover .bg img{transform:scale(1.1);filter:grayscale(0) brightness(.62)}
+.prog-card::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(10,10,10,.95) 8%,rgba(10,10,10,.34) 58%,rgba(10,10,10,.12))}
+.prog-card .cat{font-size:9.8px;letter-spacing:.24em;text-transform:uppercase;color:var(--red-lt);margin-bottom:9px}
+.prog-card h3{font-size:1.55rem;line-height:1.04;margin-bottom:9px}
+.prog-card p{font-size:.915rem;color:#c3c0bb;margin:0;max-height:0;opacity:0;overflow:hidden;transition:max-height .65s var(--ease),opacity .5s ease,margin .5s}
+.prog-card:hover p{max-height:110px;opacity:1;margin-bottom:15px}
+.prog-card .more{display:inline-flex;align-items:center;gap:9px;font-size:10.6px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:#fff}
+.prog-card .more span{width:26px;height:26px;border-radius:50%;background:var(--red);display:grid;place-items:center;transition:transform .5s var(--ease)}
+.prog-card:hover .more span{transform:translateX(5px)}
+.prog-card.hidden{display:none}
+
+/* ============ FACILITIES ============ */
+.fac-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.fac-item{position:relative;overflow:hidden;border-radius:18px;min-height:250px}
+.fac-item.tall{grid-column:span 5;min-height:420px}
+.fac-item.wide{grid-column:span 7;min-height:420px}
+.fac-item.half{grid-column:span 4;min-height:290px}
+.fac-item img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) brightness(.68);transition:transform 1.2s var(--ease),filter .8s ease}
+.fac-item:hover img{transform:scale(1.09);filter:grayscale(0) brightness(.78)}
+.fac-cap{position:absolute;left:24px;right:24px;bottom:22px;z-index:2}
+.fac-cap h4{font-size:1.16rem;margin-bottom:5px}
+.fac-cap p{font-size:.865rem;color:#c9c6c1;margin:0;opacity:0;transform:translateY(12px);transition:all .55s var(--ease)}
+.fac-item:hover .fac-cap p{opacity:1;transform:none}
+.fac-item::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,10,.9),transparent 62%)}
+
+/* ============ TRAINERS ============ */
+.trainer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.trainer-card{position:relative;border-radius:20px;overflow:hidden;background:#141414;border:1px solid var(--line);transition:transform .65s var(--ease),border-color .5s}
+.trainer-card:hover{transform:translateY(-9px);border-color:rgba(224,32,43,.5)}
+.trainer-photo{position:relative;aspect-ratio:3/3.75;overflow:hidden}
+.trainer-photo img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.08);transition:transform 1.1s var(--ease),filter .7s ease}
+.trainer-card:hover .trainer-photo img{transform:scale(1.07);filter:grayscale(0)}
+.trainer-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,20,20,1),transparent 52%)}
+.trainer-meta{padding:22px 22px 26px;position:relative}
+.trainer-meta .spec{font-size:9.8px;letter-spacing:.22em;text-transform:uppercase;color:var(--red-lt);margin-bottom:7px}
+.trainer-meta h3{font-size:1.32rem;margin-bottom:7px}
+.trainer-meta .exp{font-size:.845rem;color:var(--muted);margin-bottom:15px}
+.cert-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.cert-tag{font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:5px 10px;border-radius:100px;background:rgba(255,255,255,.07);border:1px solid var(--line);color:#bfbcb7}
+.trainer-link{display:inline-flex;align-items:center;gap:9px;font-size:10.6px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:#fff;background:none;border:0;padding:0;cursor:pointer}
+.trainer-link .bar{width:22px;height:1.5px;background:var(--red);transition:width .5s var(--ease)}
+.trainer-link:hover .bar{width:38px}
+
+/* ============ TRANSFORMATIONS ============ */
+.transform-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.ba-card{border-radius:20px;overflow:hidden;background:#161616;border:1px solid var(--line)}
+.ba{position:relative;aspect-ratio:4/3.15;overflow:hidden;cursor:ew-resize;user-select:none;touch-action:none}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(.75) contrast(1.05)}
+.ba .after-img{clip-path:inset(0 0 0 50%)}
+.ba .divider{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--red);z-index:4;box-shadow:0 0 22px rgba(224,32,43,.75)}
+.ba .handle{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;
+  background:#fff;color:var(--ink);display:grid;place-items:center;z-index:5;box-shadow:0 12px 30px rgba(0,0,0,.5);
+}
+.ba .tag{position:absolute;top:14px;z-index:3;font-size:9.4px;letter-spacing:.22em;text-transform:uppercase;padding:6px 12px;border-radius:100px;background:rgba(10,10,10,.72);backdrop-filter:blur(8px)}
+.ba .tag.b{left:14px}.ba .tag.a{right:14px;background:var(--red)}
+.ba-info{padding:24px}
+.ba-info h3{font-size:1.24rem;margin-bottom:7px}
+.ba-info .res{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.res-pill{font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border-radius:100px;background:rgba(224,32,43,.13);color:#ff8a8a;border:1px solid rgba(224,32,43,.28)}
+.ba-info p{font-size:.915rem;color:var(--muted);margin:0}
+
+/* ============ PRICING ============ */
+.price-toggle{display:inline-flex;align-items:center;gap:5px;padding:5px;border-radius:100px;background:rgba(255,255,255,.07);border:1px solid var(--line)}
+.section-light .price-toggle{background:rgba(10,10,10,.06);border-color:rgba(10,10,10,.1)}
+.toggle-btn{padding:11px 22px;border-radius:100px;border:0;background:transparent;cursor:pointer;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);transition:all .45s var(--ease)}
+.section-light .toggle-btn{color:var(--muted-dark)}
+.toggle-btn.active{background:var(--red);color:#fff}
+.price-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:stretch}
+.price-card{
+  position:relative;display:flex;flex-direction:column;padding:32px 28px 30px;border-radius:20px;
+  background:#fff;border:1px solid rgba(10,10,10,.1);transition:transform .65s var(--ease),box-shadow .65s ease,border-color .5s;
+}
+.price-card:hover{transform:translateY(-10px);box-shadow:0 34px 70px -28px rgba(10,10,10,.35)}
+.price-card.featured{background:var(--ink);color:var(--bone);border-color:var(--ink);box-shadow:0 32px 68px -26px rgba(10,10,10,.5)}
+.price-card.featured .p-feat{color:#bdbab5}
+.price-card.featured .p-head{color:#fff}
+.p-badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--red);color:#fff;font-size:9.4px;letter-spacing:.22em;text-transform:uppercase;padding:7px 16px;border-radius:100px;white-space:nowrap;box-shadow:0 12px 26px -10px rgba(224,32,43,.8)}
+.p-head{font-family:'Anton',sans-serif;font-size:1.32rem;text-transform:uppercase;letter-spacing:.03em;color:var(--ink);margin-bottom:6px}
+.p-sub{font-size:.855rem;color:var(--muted-dark);margin-bottom:22px;min-height:42px}
+.price-card.featured .p-sub{color:#a09d98}
+.p-price{display:flex;align-items:flex-end;gap:7px;margin-bottom:6px}
+.p-price .cur{font-family:'Anton',sans-serif;font-size:1.45rem;line-height:1.2}
+.p-price .amt{font-family:'Anton',sans-serif;font-size:3.15rem;line-height:.92;letter-spacing:-.015em}
+.p-price .per{font-size:.82rem;color:var(--muted-dark);padding-bottom:7px;letter-spacing:.1em;text-transform:uppercase}
+.price-card.featured .p-price .per{color:#a09d98}
+.p-save{font-size:.795rem;color:var(--red-dk);font-weight:600;margin-bottom:22px;min-height:20px}
+.price-card.featured .p-save{color:#ff8a8a}
+.p-feat{list-style:none;padding:0;margin:0 0 26px;display:grid;gap:11px;font-size:.905rem;color:#54514d;flex:1}
+.p-feat li{display:flex;gap:10px;align-items:flex-start;line-height:1.55}
+.p-feat svg{flex:none;margin-top:3px}
+
+/* ============ CALCULATORS ============ */
+.calc-shell{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:26px;align-items:start}
+.panel{background:#fff;border-radius:22px;padding:clamp(24px,3.4vw,38px);border:1px solid rgba(10,10,10,.09);box-shadow:0 28px 64px -32px rgba(10,10,10,.32)}
+.tabs{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:28px}
+.tab{padding:10px 17px;border-radius:100px;border:1px solid rgba(10,10,10,.12);background:transparent;cursor:pointer;font-size:10.4px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#6b6864;transition:all .4s var(--ease)}
+.tab.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tab:hover:not(.active){border-color:rgba(10,10,10,.32);color:var(--ink)}
+.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.field{display:flex;flex-direction:column;gap:7px}
+.field.full{grid-column:1/-1}
+.field label{font-size:10.4px;letter-spacing:.19em;text-transform:uppercase;font-weight:700;color:#6b6864}
+.input,.select,.textarea{
+  width:100%;padding:14px 16px;border-radius:12px;border:1.5px solid rgba(10,10,10,.13);
+  background:#fafaf9;font-size:.955rem;transition:border-color .35s,box-shadow .35s,background .35s;
+}
+.input:focus,.select:focus,.textarea:focus{border-color:var(--red);background:#fff;box-shadow:0 0 0 4px rgba(224,32,43,.12);outline:none}
+.textarea{resize:vertical;min-height:112px}
+.seg{display:flex;gap:8px}
+.seg button{flex:1;padding:13px 10px;border-radius:12px;border:1.5px solid rgba(10,10,10,.13);background:#fafaf9;cursor:pointer;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#6b6864;transition:all .38s var(--ease)}
+.seg button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.helper{font-size:.815rem;color:#8a8782;line-height:1.6}
+.disclaimer{
+  display:flex;gap:11px;align-items:flex-start;padding:15px 17px;border-radius:13px;
+  background:rgba(224,32,43,.07);border:1px solid rgba(224,32,43,.2);font-size:.825rem;color:#7d4044;line-height:1.62;
+}
+.results{background:var(--ink);color:var(--bone);border-radius:22px;padding:clamp(24px,3.4vw,38px);position:relative;overflow:hidden}
+.results::before{
+  content:"";position:absolute;width:420px;height:420px;border-radius:50%;right:-160px;top:-190px;
+  background:radial-gradient(circle,rgba(224,32,43,.28),transparent 68%);
+}
+.res-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;position:relative}
+.res-tile{background:rgba(255,255,255,.055);border:1px solid var(--line);border-radius:15px;padding:19px 17px;transition:transform .5s var(--ease),border-color .45s}
+.res-tile:hover{transform:translateY(-5px);border-color:rgba(224,32,43,.5)}
+.res-tile .lbl{font-size:9.4px;letter-spacing:.19em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.res-tile .val{font-family:'Anton',sans-serif;font-size:1.82rem;line-height:1;letter-spacing:-.005em}
+.res-tile .sub{font-size:.765rem;color:#8e8b87;margin-top:6px}
+.chart-\boxed{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:16px;position:relative}
+.chart-box h4{font-family:'Inter',sans-serif;font-size:.86rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#c2bfba;margin-bottom:14px}
+.chart-box svg{width:100%;height:auto;display:block}
+.chart-line{stroke-dasharray:1200;stroke-dashoffset:1200;animation:drawline 1.5s var(--ease) forwards}
+@keyframes drawline{to{stroke-dashoffset:0}}
+.bars{display:grid;gap:12px;margin-top:6px}
+.bar-row{display:grid;grid-template-columns:126px 1fr 56px;gap:12px;align-items:center}
+.bar-row .bl{font-size:.825rem;color:#b6b3ae}
+.bar-track{height:8px;border-radius:100px;background:rgba(255,255,255,.11);overflow:hidden}
+.bar-fill{height:100%;border-radius:100px;background:linear-gradient(90deg,var(--red),var(--red-lt));width:0;transition:width 1.15s var(--ease)}
+.bar-row .bv{font-size:.835rem;text-align:right;color:#fff;font-weight:600}
+.routine{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:11px;margin-top:14px}
+.routine-day{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:13px;padding:15px 16px}
+.routine-day .d{font-size:9.4px;letter-spacing:.2em;text-transform:uppercase;color:var(--red-lt);margin-bottom:7px}
+.routine-day .t{font-size:.895rem;font-weight:600;margin-bottom:4px}
+.routine-day .s{font-size:.785rem;color:#928f8b;line-height:1.55}
+
+/* ============ PLANNER ============ */
+.plan-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:11px;margin-top:20px}
+.plan-day{border-radius:15px;padding:18px 14px;background:#fff;border:1px solid rgba(10,10,10,.09);min-height:172px;display:flex;flex-direction:column;transition:transform .5s var(--ease),box-shadow .5s}
+.plan-day:hover{transform:translateY(-6px);box-shadow:0 22px 48px -22px rgba(10,10,10,.32)}
+.plan-day.rest{background:#f2f0ed}
+.plan-day .day{font-size:9.6px;letter-spacing:.21em;text-transform:uppercase;color:var(--red-dk);margin-bottom:9px;font-weight:700}
+.plan-day .type{font-family:'Anton',sans-serif;font-size:1.03rem;text-transform:uppercase;line-height:1.12;margin-bottom:8px;letter-spacing:.015em}
+.plan-day .det{font-size:.8rem;color:#6b6864;line-height:1.6;flex:1}
+.plan-day .dur{font-size:.765rem;letter-spacing:.12em;text-transform:uppercase;color:#8a8782;margin-top:10px;padding-top:10px;border-top:1px solid rgba(10,10,10,.09)}
+
+/* ============ BOOKING ============ */
+.booking-shell{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:26px;align-items:start}
+.steps{display:flex;align-items:center;gap:0;margin-bottom:30px;flex-wrap:wrap}
+.step{display:flex;align-items:center;gap:10px;flex:1;min-width:118px}
+.step .bubble{
+  width:34px;height:34px;flex:none;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;
+  border:1.6px solid rgba(10,10,10,.17);color:#8a8782;background:#fff;transition:all .5s var(--ease);
+}
+.step.active .bubble{background:var(--red);border-color:var(--red);color:#fff;transform:scale(1.09)}
+.step.done .bubble{background:var(--ink);border-color:var(--ink);color:#fff}
+.step .txt{font-size:9.7px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#8a8782;transition:color .4s}
+.step.active .txt{color:var(--ink)}
+.step-line{flex:1;height:1.6px;background:rgba(10,10,10,.13);margin:0 12px;min-width:20px;position:relative;overflow:hidden}
+.step-line::after{content:"";position:absolute;inset:0;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .7s var(--ease)}
+.step-line.done::after{transform:scaleX(1)}
+.bstep{display:none;animation:fadeUp .55s var(--ease)}
+.bstep.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.opt-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}
+.opt{
+  position:relative;padding:19px 19px;border-radius:15px;border:1.6px solid rgba(10,10,10,.12);cursor:pointer;
+  background:#fafaf9;transition:all .42s var(--ease);text-align:left;
+}
+.opt:hover{border-color:rgba(224,32,43,.45);transform:translateY(-3px)}
+.opt.selected{border-color:var(--red);background:rgba(224,32,43,.06);box-shadow:0 16px 34px -18px rgba(224,32,43,.5)}
+.opt .ot{font-weight:700;font-size:.975rem;color:var(--ink);margin-bottom:5px}
+.opt .os{font-size:.825rem;color:#75726e;line-height:1.6}
+.opt .check{position:absolute;top:15px;right:15px;width:21px;height:21px;border-radius:50%;border:1.6px solid rgba(10,10,10,.18);display:grid;place-items:center;transition:all .4s}
+.opt.selected .check{background:var(--red);border-color:var(--red)}
+.opt.selected .check svg{opacity:1;transform:scale(1)}
+.opt .check svg{opacity:0;transform:scale(.5);transition:all .35s var(--ease)}
+.slot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:9px}
+.slot{padding:13px 8px;border-radius:12px;border:1.5px solid rgba(10,10,10,.13);background:#fafaf9;cursor:pointer;font-size:.865rem;font-weight:600;color:#5c5955;transition:all .38s var(--ease)}
+.slot:hover{border-color:rgba(224,32,43,.45);color:var(--ink)}
+.slot.selected{background:var(--ink);color:#fff;border-color:var(--ink)}
+.slot.disabled{opacity:.36;cursor:not-allowed;text-decoration:line-through}
+.booking-aside{background:var(--ink);color:var(--bone);border-radius:22px;padding:clamp(24px,3.2vw,34px);position:relative;overflow:hidden}
+.booking-aside .thumb{border-radius:15px;overflow:hidden;aspect-ratio:16/10;margin-bottom:20px}
+.booking-aside .thumb img{width:100%;height:100%;object-fit:cover;filter:grayscale(.5) brightness(.85)}
+.sum-row{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px solid var(--line);font-size:.885rem}
+.sum-row .k{color:var(--muted);font-size:.775rem;letter-spacing:.13em;text-transform:uppercase}
+.sum-row .v{font-weight:600;text-align:right;max-width:60%}
+.nav-btns{display:flex;gap:11px;margin-top:26px;flex-wrap:wrap}
+.confirm-\boxed{text-align:center;padding:22px 0}
+.confirm-icon{width:82px;height:82px;border-radius:50%;background:rgba(224,32,43,.12);border:1.6px solid rgba(224,32,43,.35);display:grid;place-items:center;margin:0 auto 22px}
+.confirm-icon svg{stroke-dasharray:60;stroke-dashoffset:60;animation:draw .8s .25s var(--ease) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+
+/* ============ TESTIMONIALS ============ */
+.t-viewport{overflow:hidden;border-radius:22px}
+.t-track{display:flex;transition:transform .85s var(--ease)}
+.t-slide{flex:0 0 100%;padding:clamp(28px,4.4vw,56px);background:var(--ink-2);border:1px solid var(--line);border-radius:22px}
+.t-quote{font-family:'Anton',sans-serif;font-size:clamp(1.35rem,2.75vw,2.15rem);line-height:1.32;letter-spacing:.002em;text-transform:none;font-weight:400;margin-bottom:26px}
+.t-person{display:flex;align-items:center;gap:15px}
+.t-person img{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid var(--red)}
+.t-person .n{font-weight:700;font-size:.985rem}
+.t-person .r{font-size:.815rem;color:var(--muted);letter-spacing:.09em;text-transform:uppercase}
+.stars{display:flex;gap:3px;margin-bottom:18px}
+.t-nav{display:flex;align-items:center;gap:11px;margin-top:22px}
+.t-btn{width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--bone);cursor:pointer;display:grid;place-items:center;transition:all .42s var(--ease)}
+.t-btn:hover{background:var(--red);border-color:var(--red);transform:translateY(-3px)}
+.t-dots{display:flex;gap:7px;margin-left:8px}
+.t-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.24);cursor:pointer;transition:all .45s var(--ease);border:0;padding:0}
+.t-dot.active{width:28px;border-radius:100px;background:var(--red)}
+
+/* ============ GALLERY ============ */
+.gal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.gal-item{position:relative;overflow:hidden;border-radius:15px;cursor:pointer;aspect-ratio:1/1;background:#181818}
+.gal-item.w2{grid-column:span 2;aspect-ratio:2/1}
+.gal-item img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) brightness(.75);transition:transform 1.05s var(--ease),filter .75s ease}
+.gal-item:hover img{transform:scale(1.11);filter:grayscale(0) brightness(.9)}
+.gal-item .ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,10,.86),transparent 58%);opacity:0;transition:opacity .5s}
+.gal-item:hover .ov{opacity:1}
+.gal-item .cap{position:absolute;left:18px;bottom:16px;font-size:.875rem;font-weight:600;letter-spacing:.11em;text-transform:uppercase;opacity:0;transform:translateY(12px);transition:all .5s var(--ease)}
+.gal-item:hover .cap{opacity:1;transform:none}
+.light\boxed{position:fixed;inset:0;z-index:2000;background:rgba(8,8,8,.96);backdrop-filter:blur(10px);display:none;align-items:center;justify-content:center;padding:22px}
+.lightbox.open{display:flex;animation:lbIn .42s ease}
+@keyframes lbIn{from{opacity:0}to{opacity:1}}
+.lightbox img{max-width:min(92vw,1120px);max-height:82vh;object-fit:contain;border-radius:12px;animation:lbZoom .5s var(--ease)}
+@keyframes lbZoom{from{transform:scale(.93);opacity:0}to{transform:scale(1);opacity:1}}
+.lb-close,.lb-nav{position:absolute;width:52px;height:52px;border-radius:50%;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:#fff;cursor:pointer;display:grid;place-items:center;transition:all .38s var(--ease)}
+.lb-close{top:22px;right:22px}
+.lb-nav.prev{left:18px;top:50%;transform:translateY(-50%)}
+.lb-nav.next{right:18px;top:50%;transform:translateY(-50%)}
+.lb-close:hover,.lb-nav:hover{background:var(--red);border-color:var(--red)}
+.lb-cap{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);font-size:.865rem;letter-spacing:.19em;text-transform:uppercase;color:#cfccc7}
+
+/* ============ FAQ ============ */
+.faq-list{display:grid;gap:11px}
+.faq-item{border:1px solid var(--line);border-radius:15px;overflow:hidden;background:var(--ink-2);transition:border-color .45s,background .45s}
+.faq-item.open{border-color:rgba(224,32,43,.42);background:#181818}
+.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:21px 24px;background:none;border:0;cursor:pointer;text-align:left;font-family:'Inter',sans-serif;font-size:1.025rem;font-weight:600;color:var(--bone);line-height:1.5}
+.faq-icon{flex:none;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;position:relative;transition:all .45s var(--ease)}
+.faq-item.open .faq-icon{background:var(--red);border-color:var(--red);transform:rotate(135deg)}
+.faq-icon::before,.faq-icon::after{content:"";position:absolute;background:currentColor;transition:transform .45s var(--ease)}
+.faq-icon::before{width:11px;height:1.6px}
+.faq-icon::after{width:1.6px;height:11px}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .62s var(--ease)}
+.faq-a-inner{padding:0 24px 23px;font-size:.955rem;color:var(--muted);line-height:1.82}
+
+/* ============ CONTACT ============ */
+.contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px}
+.map-wrap{border-radius:20px;overflow:hidden;border:1px solid var(--line);min-height:330px;position:relative;filter:grayscale(1) contrast(1.05)}
+.map-wrap iframe{width:100%;height:100%;min-height:330px;border:0;display:block}
+.contact-cards{display:grid;gap:12px;margin-top:22px}
+.contact-card{display:flex;gap:15px;align-items:flex-start;padding:19px 20px;border-radius:15px;border:1px solid var(--line);background:var(--ink-2);transition:transform .5s var(--ease),border-color .45s}
+.contact-card:hover{transform:translateX(6px);border-color:rgba(224,32,43,.42)}
+.contact-card .ic{width:42px;height:42px;flex:none;border-radius:12px;background:rgba(224,32,43,.13);color:var(--red-lt);display:grid;place-items:center}
+.contact-card .lbl{font-size:9.4px;letter-spacing:.21em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.contact-card .val{font-size:.985rem;font-weight:600}
+.form-dark .input,.form-dark .select,.form-dark .textarea{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.14);color:var(--bone)}
+.form-dark .input:focus,.form-dark .select:focus,.form-dark .textarea:focus{background:rgba(255,255,255,.09);border-color:var(--red);box-shadow:0 0 0 4px rgba(224,32,43,.16)}
+.form-dark .input::placeholder,.form-dark .textarea::placeholder{color:#77746f}
+.form-dark .field label{color:#a09d98}
+.form-dark .seg button{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.14);color:#a09d98}
+.form-dark .seg button.active{background:var(--red);border-color:var(--red);color:#fff}
+.form-msg{display:none;padding:15px 18px;border-radius:13px;background:rgba(52,199,123,.13);border:1px solid rgba(52,199,123,.35);color:#7fe0ab;font-size:.905rem}
+.form-msg.show{display:block;animation:fadeUp .5s var(--ease)}
+
+/* ============ CTA BAND ============ */
+.cta-band{position:relative;overflow:hidden;padding:clamp(62px,8vw,110px) 0;border-radius:0}
+.cta-band .bgimg{position:absolute;inset:0}
+.cta-band .bgimg img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) brightness(.32)}
+.cta-band .inner{position:relative;z-index:2;text-align:center}
+.cta-band::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(224,32,43,.28),rgba(10,10,10,.72))}
+
+/* ============ FOOTER ============ */
+.footer{background:#080808;padding:clamp(56px,7vw,88px) 0 26px;border-top:1px solid var(--line)}
+.f-grid{display:grid;grid-template-columns:1.55fr 1fr 1fr 1.3fr;gap:clamp(26px,4vw,52px)}
+.f-col h4{font-family:'Inter',sans-serif;font-size:10.4px;letter-spacing:.24em;text-transform:uppercase;color:#fff;font-weight:700;margin-bottom:20px}
+.f-links{list-style:none;padding:0;margin:0;display:grid;gap:11px}
+.f-links a{font-size:.905rem;color:#8e8b87;transition:color .35s,transform .35s var(--ease);display:inline-block}
+.f-links a:hover{color:#fff;transform:translateX(5px)}
+.f-about p{font-size:.925rem;color:#8e8b87;line-height:1.82;max-width:340px}
+.social-row{display:flex;gap:9px;margin-top:22px}
+.social{width:41px;height:41px;border-radius:11px;border:1px solid var(--line);display:grid;place-items:center;color:#a09d98;transition:all .42s var(--ease)}
+.social:hover{background:var(--red);border-color:var(--red);color:#fff;transform:translateY(-4px)}
+.newsletter{display:flex;gap:8px;margin-top:16px}
+.newsletter input{flex:1;padding:13px 15px;border-radius:11px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:#fff;font-size:.9rem}
+.newsletter input:focus{outline:none;border-color:var(--red)}
+.f-bottom{margin-top:clamp(38px,5vw,58px);padding-top:24px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:15px;justify-content:space-between;align-items:center;font-size:.825rem;color:#6d6a66}
+.f-bottom a{color:#6d6a66;transition:color .35s}
+.f-bottom a:hover{color:#fff}
+.f-legal{display:flex;flex-wrap:wrap;gap:19px}
+
+/* ============ STICKY RAIL ============ */
+.sticky-rail{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:900;display:flex;flex-direction:column;gap:9px}
+.rail-btn{
+  display:flex;align-items:center;gap:11px;padding:13px 17px;border-radius:100px;background:rgba(20,20,20,.86);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--line);cursor:pointer;
+  font-size:10.4px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#fff;white-space:nowrap;
+  transition:all .48s var(--ease);
+}
+.rail-btn:hover{background:var(--red);border-color:var(--red);transform:translateX(-6px)}
+.rail-btn.primary{background:var(--red);border-color:var(--red);box-shadow:0 16px 36px -14px rgba(224,32,43,.85)}
+.rail-btn.primary:hover{background:var(--red-lt)}
+.rail-btn .lbl{max-width:0;overflow:hidden;opacity:0;transition:all .48s var(--ease)}
+.sticky-rail:hover .rail-btn .lbl{max-width:150px;opacity:1}
+.mobile-bar{display:none}
+
+/* ============ MISC ============ */
+.to-top{position:fixed;left:18px;bottom:22px;z-index:890;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:rgba(20,20,20,.86);backdrop-filter:blur(12px);color:#fff;cursor:pointer;opacity:0;pointer-events:none;transform:translateY(14px);transition:all .5s var(--ease)}
+.to-top.show{opacity:1;pointer-events:auto;transform:none}
+.to-top:hover{background:var(--red);border-color:var(--red)}
+.offline-note{display:none}
+.badge-pill{display:inline-flex;align-items:center;gap:8px;padding:8px 15px;border-radius:100px;border:1px solid var(--line);background:rgba(255,255,255,.055);font-size:10px;letter-spacing:.19em;text-transform:uppercase;font-weight:600;color:#c2bfba}
+.section-light .badge-pill{background:rgba(10,10,10,.045);border-color:rgba(10,10,10,.11);color:#6b6864}
+.pulse-dot{width:7px;height:7px;border-radius:50%;background:#34c77b;box-shadow:0 0 0 0 rgba(52,199,123,.7);animation:pulse 2.2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(52,199,123,0)}100%{box-shadow:0 0 0 0 rgba(52,199,123,0)}}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width:1180px){
+  .trainer-grid{grid-template-columns:repeat(3,1fr)}
+  .price-grid{grid-template-columns:repeat(2,1fr)}
+  .sticky-rail{right:12px}
+  .rail-btn .lbl{display:none}
+}
+@media (max-width:1024px){
+  .nav-links{display:none}
+  .burger{display:block}
+  .nav-cta .btn{display:none}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-stats{flex-direction:row;flex-wrap:wrap;min-width:0}
+  .float-card{flex:1 1 150px}
+  .about-grid,.calc-shell,.booking-shell,.contact-grid{grid-template-columns:1fr}
+  .prog-grid{grid-template-columns:repeat(2,1fr)}
+  .fac-item.tall,.fac-item.wide{grid-column:span 6;min-height:330px}
+  .fac-item.half{grid-column:span 6;min-height:270px}
+  .plan-grid{grid-template-columns:repeat(3,1fr)}
+  .head-row{grid-template-columns:1fr;gap:20px;align-items:start}
+  .gal-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:820px){
+  .transform-grid{grid-template-columns:1fr}
+  .trainer-grid{grid-template-columns:repeat(2,1fr)}
+  .stats-band{grid-template-columns:repeat(2,1fr)}
+  .f-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:680px){
+  :root{--nav-h:68px}
+  .section{padding:64px 0}
+  .prog-grid{grid-template-columns:1fr}
+  .price-grid{grid-template-columns:1fr}
+  .trainer-grid{grid-template-columns:1fr}
+  .fac-item.tall,.fac-item.wide,.fac-item.half{grid-column:span 12;min-height:250px}
+  .plan-grid{grid-template-columns:1fr}
+  .field-grid{grid-template-columns:1fr}
+  .res-grid{grid-template-columns:repeat(2,1fr)}
+  .opt-grid{grid-template-columns:1fr}
+  .gal-grid{grid-template-columns:repeat(2,1fr)}
+  .gal-item.w2{grid-column:span 2;aspect-ratio:1.6/1}
+  .sticky-rail{display:none}
+  .mobile-bar{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:1px;position:fixed;left:0;right:0;bottom:0;z-index:895;
+    background:rgba(12,12,12,.95);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+    border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom);
+  }
+  .mobile-bar a{display:flex;flex-direction:column;align-items:center;gap:5px;padding:11px 4px;font-size:8.6px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#b8b5b0}
+  .mobile-bar a.primary{background:var(--red);color:#fff}
+  .to-top{display:none}
+  .footer{padding-bottom:96px}
+  .t-slide{padding:26px 22px}
+  .ba-info{padding:20px}
+}
+@media (max-width:420px){
+  .res-grid{grid-template-columns:1fr}
+  .hero-stats{gap:9px}
+  .float-card{padding:13px 15px}
+  .float-card .num{font-size:1.5rem}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  [data-reveal],.split-word,.hero h1 .word{opacity:1!important;transform:none!important}
+  .img-reveal::after{display:none}
+  .img-reveal img{transform:none!important}
+}
+</style>
+</head>
+<body>
+<div class="noise" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo" aria-label="Aura Fitness Club home">
+      <div class="logo-mark">A</div>
+      <div class="logo-text">AURA<small>FITNESS CLUB</small></div>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#membership">Membership</a>
+      <a href="#calculators">Calculators</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#booking" class="btn btn-primary btn-sm magnetic"><span class="magnetic-inner">Book Free Trial</span></a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-links">
+    <a href="#about">About Aura</a>
+    <a href="#programs">Programs</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#trainers">Trainers</a>
+    <a href="#transformations">Transformations</a>
+    <a href="#membership">Membership</a>
+    <a href="#calculators">Fitness Tools</a>
+    <a href="#planner">Progress Planner</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="mm-foot">
+    <a href="#booking" class="btn btn-primary btn-sm">Book Free Trial</a>
+    <a href="tel:+919876543210" class="btn btn-ghost btn-sm">Call Now</a>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-media" id="heroMedia">
+    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80" alt="Athlete training with weights at Aura Fitness Club" fetchpriority="high">
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow" style="color:#e6e3df;opacity:.92">Hadapsar · Pune · Est. 2013</div>
+          <h1 class="display-xl" id="heroTitle">
+            <span class="line"><span class="word" style="transition-delay:.12s">Build</span> <span class="word" style="transition-delay:.22s">Your</span></span>
+            <span class="line"><span class="word" style="transition-delay:.32s">Stronger</span> <span class="word accent" style="transition-delay:.42s">Self</span></span>
+          </h1>
+          <div class="hero-sub">
+            <p class="lead">A precision-engineered training environment in the heart of Hadapsar — elite coaching, world-class equipment, and a results system built around you.</p>
+          </div>
+          <div class="hero-actions">
+            <a href="#membership" class="btn btn-primary magnetic"><span class="magnetic-inner">Join Now</span><svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="#booking" class="btn btn-ghost magnetic"><span class="magnetic-inner">Book a Free Trial</span></a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="float-card">
+            <div class="num"><span data-count="2400" data-suffix="+">0</span></div>
+            <div class="lbl">Active Members</div>
+          </div>
+          <div class="float-card">
+            <div class="num"><span data-count="4.9" data-dec="1">0</span> ★</div>
+            <div class="lbl">Google Rating</div>
+          </div>
+          <div class="float-card">
+            <div class="num"><span data-count="42" data-suffix="+">0</span></div>
+            <div class="lbl">Weekly Classes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint" aria-hidden="true">
+    <span>Scroll</span>
+    <div class="track"></div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack">
+    <div class="marquee-item">Strength Training <span class="dot"></span> Personal Coaching <span class="dot"></span> Fat Loss <span class="dot"></span> Functional Fitness <span class="dot"></span> Kickboxing <span class="dot"></span> Zumba <span class="dot"></span> Yoga <span class="dot"></span> Cardio Conditioning <span class="dot"></span></div>
+    <div class="marquee-item">Strength Training <span class="dot"></span> Personal Coaching <span class="dot"></span> Fat Loss <span class="dot"></span> Functional Fitness <span class="dot"></span> Kickboxing <span class="dot"></span> Zumba <span class="dot"></span> Yoga <span class="dot"></span> Cardio Conditioning <span class="dot"></span></div>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section section-dark" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-stack">
+        <div class="img-reveal main-img" data-parallax="0.05">
+          <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1100&q=80" alt="Premium gym floor at Aura Fitness Club Hadapsar" loading="lazy">
+        </div>
+        <div class="img-reveal sub-img" data-reveal="scale" style="--d:.28s">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80" alt="Member strength training session" loading="lazy">
+        </div>
+        <div class="experience-badge" data-reveal="scale" style="--d:.45s">
+          <div class="n"><span data-count="12" data-suffix="+">0</span></div>
+          <div class="t">Years of Excellence</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">About Aura Fitness Club</div>
+        <h2 class="display-lg" data-split>Where Discipline Becomes Identity</h2>
+        <p class="lead" data-reveal style="--d:.14s">Aura Fitness Club isn't a room full of machines — it's a standard. Built in Hadapsar for people who take their health seriously, every detail here is engineered: the equipment selection, the coaching methodology, the air you breathe, the music that moves you.</p>
+        <div class="feature-list">
+          <div class="feature-item" data-reveal style="--d:.18s">
+            <div class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg></div>
+            <div><h4>Certified Performance Coaches</h4><p class="muted">Every trainer holds nationally accredited certification with a minimum of 5 years of practical coaching experience.</p></div>
+          </div>
+          <div class="feature-item" data-reveal style="--d:.26s">
+            <div class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg></div>
+            <div><h4>Science-Led Programming</h4><p class="muted">Periodised training blocks, structured nutrition guidance and measurable progress reviews every four weeks.</p></div>
+          </div>
+          <div class="feature-item" data-reveal style="--d:.34s">
+            <div class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg></div>
+            <div><h4>Premium, Spotless Environment</h4><p class="muted">Sanitised equipment, filtered air, luxury changing rooms and a members-first culture that respects your time.</p></div>
+          </div>
+        </div>
+        <div class="hero-actions" style="opacity:1;transform:none">
+          <a href="#programs" class="btn btn-primary magnetic"><span class="magnetic-inner">Explore Programs</span></a>
+          <a href="#trainers" class="btn btn-ghost magnetic"><span class="magnetic-inner">Meet The Team</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="section section-alt" style="padding-top:0">
+  <div class="wrap">
+    <div class="stats-band" data-reveal="fade">
+      <div class="stat-cell"><div class="v"><span data-count="2400" data-suffix="+">0</span></div><div class="l">Members Transformed</div></div>
+      <div class="stat-cell"><div class="v"><span data-count="38" data-suffix="+">0</span></div><div class="l">Certified Coaches</div></div>
+      <div class="stat-cell"><div class="v"><span data-count="94" data-suffix="%">0</span></div><div class="l">Goal Success Rate</div></div>
+      <div class="stat-cell"><div class="v"><span data-count="12000" data-suffix="+">0</span></div><div class="l">Sq. Ft. Training Floor</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="section section-dark" id="why">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Why Choose Aura</div>
+        <h2 class="display-lg" data-split>Not Just A Gym.<br>A Performance System.</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.12s">Six pillars that separate a premium club from an ordinary one — and the reason our members stay for years, not weeks.</p>
+      </div>
+    </div>
+
+    <div class="prog-grid" style="grid-template-columns:repeat(3,1fr)">
+      <div class="card" data-reveal style="--d:.05s">
+        <div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6.5 6.5v11M17.5 6.5v11M3 9v6M21 9v6M6.5 12h11"/></svg></div>
+        <h3>Elite Equipment</h3>
+        <p>Imported plate-loaded machines, calibrated free weights, competition bars and a dedicated conditioning turf built for serious training.</p>
+      </div>
+      <div class="card" data-reveal style="--d:.12s">
+        <div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7.5-4.7-7.5-10.2A4.5 4.5 0 0112 7.4a4.5 4.5 0 017.5 3.4C19.5 16.3 12 21 12 21z"/></svg></div>
+        <h3>Personalised Coaching</h3>
+        <p>No cookie-cutter plans. Your programme is built around your body, schedule, injury history and real-world goals.</p>
+      </div>
+      <div class="card" data-reveal style="--d:.19s">
+        <div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19h16M6 15l4-5 3 3 5-7"/></svg></div>
+        <h3>Measurable Progress</h3>
+        <p>Monthly body composition scans, strength benchmarks and visual progress tracking so you always know it's working.</p>
+      </div>
+      <div class="card" data-reveal style="--d:.26s">
+        <div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.2 2"/></svg></div>
+        <h3>Flexible Timings</h3>
+        <p>Open 5:30 AM to 11:00 PM on weekdays with dedicated early-bird and late-night training windows for working professionals.</p>
+      </div>
+      <div class="card" data-reveal style="--d:.33s">
+        <div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l7.5 3.2v5c0 4.6-3 8.4-7.5 9.6-4.5-1.2-7.5-5-7.5-9.6v-5L12 3z"/><path d="M9 12l2.1 2.1L15.2 10"/></svg></div>
+        <h3>Safety & Hygiene</h3>
+        <p>Trained floor supervisors, sanitised stations every hour, emergency protocols and equipment maintained on strict schedules.</p>
+      </div>
+      <div class="card" data-reveal style="--d:.4s">
+        <div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9.5" r="2.6"/><path d="M3.5 19c.4-3.2 2.7-5 5.5-5s5.1 1.8 5.5 5M15.5 14.4c2.3.1 4.1 1.6 4.5 4.6"/></svg></div>
+        <h3>Community Energy</h3>
+        <p>Group challenges, transformation contests and member events that make consistency feel like belonging.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMS ============ -->
+<section class="section section-alt" id="programs">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Training Programs</div>
+        <h2 class="display-lg" data-split>Programmes Built<br>Around Your Goal</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.12s">From first-time gym-goers to competitive athletes — choose your lane and our coaches handle the rest.</p>
+      </div>
+    </div>
+
+    <div class="filter-row" id="progFilters" role="tablist" aria-label="Filter programs">
+      <button class="chip active" data-filter="all" role="tab" aria-selected="true">All Programs</button>
+      <button class="chip" data-filter="strength" role="tab" aria-selected="false">Strength</button>
+      <button class="chip" data-filter="weightloss" role="tab" aria-selected="false">Weight Loss</button>
+      <button class="chip" data-filter="group" role="tab" aria-selected="false">Group Classes</button>
+      <button class="chip" data-filter="combat" role="tab" aria-selected="false">Combat</button>
+      <button class="chip" data-filter="mindbody" role="tab" aria-selected="false">Mind & Body</button>
+    </div>
+
+    <div class="prog-grid" id="progGrid">
+      <article class="prog-card" data-cat="strength" data-reveal style="--d:.05s" tabindex="0" data-program="Strength Training">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Strength training" loading="lazy"></div>
+        <div class="cat">Strength</div>
+        <h3>Strength Training</h3>
+        <p>Progressive overload programming with compound lifts, accessory work and structured deload weeks for raw, lasting strength.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+
+      <article class="prog-card" data-cat="weightloss" data-reveal style="--d:.1s" tabindex="0" data-program="Weight Loss & Fat Loss">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80" alt="Weight loss training" loading="lazy"></div>
+        <div class="cat">Weight Loss</div>
+        <h3>Fat Loss System</h3>
+        <p>Calorie-aware training, metabolic circuits and weekly accountability check-ins designed for sustainable, visible results.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+
+      <article class="prog-card" data-cat="strength" data-reveal style="--d:.15s" tabindex="0" data-program="Personal Training">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Personal training session" loading="lazy"></div>
+        <div class="cat">One-on-One</div>
+        <h3>Personal Training</h3>
+        <p>Dedicated coach, custom programme, nutrition guidance and daily support — the fastest route to your goal.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+
+      <article class="prog-card" data-cat="weightloss" data-reveal style="--d:.2s" tabindex="0" data-program="Cardio & Conditioning">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=900&q=80" alt="Cardio training" loading="lazy"></div>
+        <div class="cat">Conditioning</div>
+        <h3>Cardio & HIIT</h3>
+        <p>Heart-rate guided intervals, endurance building and energy-system work for stamina, heart health and fat oxidation.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+
+      <article class="prog-card" data-cat="group" data-reveal style="--d:.25s" tabindex="0" data-program="Zumba & Dance Fitness">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Group dance fitness class" loading="lazy"></div>
+        <div class="cat">Group Class</div>
+        <h3>Zumba & Dance Fit</h3>
+        <p>High-energy, music-driven sessions that torch calories while feeling more like a party than a workout.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+
+      <article class="prog-card" data-cat="mindbody" data-reveal style="--d:.3s" tabindex="0" data-program="Yoga & Mobility">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80" alt="Yoga session" loading="lazy"></div>
+        <div class="cat">Mind & Body</div>
+        <h3>Yoga & Mobility</h3>
+        <p>Breath-led flows, corrective mobility and recovery-focused sessions to move better, lift longer and stress less.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+
+      <article class="prog-card" data-cat="combat" data-reveal style="--d:.35s" tabindex="0" data-program="Kickboxing & MMA Fitness">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Kickboxing training" loading="lazy"></div>
+        <div class="cat">Combat</div>
+        <h3>Kickboxing</h3>
+        <p>Pad work, bag rounds and defensive drills for total-body conditioning, coordination and serious stress relief.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+
+      <article class="prog-card" data-cat="group strength" data-reveal style="--d:.4s" tabindex="0" data-program="Functional Training">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=900&q=80" alt="Functional training area" loading="lazy"></div>
+        <div class="cat">Functional</div>
+        <h3>Functional Training</h3>
+        <p>Kettlebells, sleds, ropes and calisthenics built into circuits that make everyday movement effortless.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+
+      <article class="prog-card" data-cat="strength group" data-reveal style="--d:.45s" tabindex="0" data-program="CrossFit & Cross Training">
+        <div class="bg"><img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=80" alt="Cross training workout" loading="lazy"></div>
+        <div class="cat">Cross Training</div>
+        <h3>Cross Training</h3>
+        <p>Constantly varied, high-intensity workouts with a supportive squad pushing you past your comfort zone safely.</p>
+        <div class="more">View Details <span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FACILITIES ============ -->
+<section class="section section-dark" id="facilities">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Gym Facilities</div>
+        <h2 class="display-lg" data-split>Every Square Foot<br>Engineered For Results</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.12s">A 12,000 sq. ft. training floor divided into purpose-built zones — so your workout never waits on equipment.</p>
+      </div>
+    </div>
+
+    <div class="fac-grid">
+      <div class="fac-item tall img-reveal" data-reveal="scale">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80" alt="Free weights zone" loading="lazy">
+        <div class="fac-cap"><h4>Free Weights Arena</h4><p>Dumbbells to 60kg, competition benches, power racks and lifting platforms.</p></div>
+      </div>
+      <div class="fac-item wide img-reveal" data-reveal="scale" style="--d:.1s">
+        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=80" alt="Machine training floor" loading="lazy">
+        <div class="fac-cap"><h4>Machine & Plate-Loaded Floor</h4><p>Biomechanically designed equipment for every major movement pattern.</p></div>
+      </div>
+      <div class="fac-item half img-reveal" data-reveal="scale" style="--d:.15s">
+        <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=900&q=80" alt="Cardio zone" loading="lazy">
+        <div class="fac-cap"><h4>Cardio Theatre</h4><p>Treadmills, rowers, bikes & stair climbers with individual screens.</p></div>
+      </div>
+      <div class="fac-item half img-reveal" data-reveal="scale" style="--d:.2s">
+        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80" alt="Group class studio" loading="lazy">
+        <div class="fac-cap"><h4>Group Class Studio</h4><p>Sound-treated studio for Zumba, Yoga, HIIT and mobility sessions.</p></div>
+      </div>
+      <div class="fac-item half img-reveal" data-reveal="scale" style="--d:.25s">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Functional training turf" loading="lazy">
+        <div class="fac-cap"><h4>Functional Turf</h4><p>Sleds, ropes, kettlebells and open space for athletic conditioning.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRAINERS ============ -->
+<section class="section section-alt" id="trainers">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Our Trainers</div>
+        <h2 class="display-lg" data-split>Coaches Who<br>Set The Standard</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.12s">Handpicked, rigorously trained and genuinely invested in your progress. Book a session with any of our specialists.</p>
+      </div>
+    </div>
+
+    <div class="trainer-grid">
+      <article class="trainer-card" data-reveal style="--d:.05s">
+        <div class="trainer-photo"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80" alt="Head Coach Arjun Mehta" loading="lazy"></div>
+        <div class="trainer-meta">
+          <div class="spec">Head Coach · Strength</div>
+          <h3>Arjun Mehta</h3>
+          <div class="exp">11 years experience · 600+ clients coached</div>
+          <div class="cert-tags"><span class="cert-tag">K11 L3</span><span class="cert-tag">NSCA-CSCS</span><span class="cert-tag">Powerlifting</span></div>
+          <button class="trainer-link" data-trainer="Arjun Mehta">Book Trainer <span class="bar"></span></button>
+        </div>
+      </article>
+
+      <article class="trainer-card" data-reveal style="--d:.12s">
+        <div class="trainer-photo"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=80" alt="Coach Priya Nair" loading="lazy"></div>
+        <div class="trainer-meta">
+          <div class="spec">Fat Loss · Nutrition</div>
+          <h3>Priya Nair</h3>
+          <div class="exp">8 years experience · Weight-loss specialist</div>
+          <div class="cert-tags"><span class="cert-tag">ACE-CPT</span><span class="cert-tag">Precision Nutrition</span><span class="cert-tag">Pre/Post Natal</span></div>
+          <button class="trainer-link" data-trainer="Priya Nair">Book Trainer <span class="bar"></span></button>
+        </div>
+      </article>
+
+      <article class="trainer-card" data-reveal style="--d:.19s">
+        <div class="trainer-photo"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80" alt="Coach Rohan Deshmukh" loading="lazy"></div>
+        <div class="trainer-meta">
+          <div class="spec">Kickboxing · Conditioning</div>
+          <h3>Rohan Deshmukh</h3>
+          <div class="exp">9 years experience · National level athlete</div>
+          <div class="cert-tags"><span class="cert-tag">KBA Boxing</span><span class="cert-tag">CrossFit L2</span><span class="cert-tag">Sports Nutrition</span></div>
+          <button class="trainer-link" data-trainer="Rohan Deshmukh">Book Trainer <span class="bar"></span></button>
+        </div>
+      </article>
+
+      <article class="trainer-card" data-reveal style="--d:.26s">
+        <div class="trainer-photo"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=700&q=80" alt="Coach Sneha Kulkarni" loading="lazy"></div>
+        <div class="trainer-meta">
+          <div class="spec">Yoga · Mobility</div>
+          <h3>Sneha Kulkarni</h3>
+          <div class="exp">7 years experience · 500hr RYT certified</div>
+          <div class="cert-tags"><span class="cert-tag">RYT-500</span><span class="cert-tag">Mobility Specialist</span><span class="cert-tag">Breathwork</span></div>
+          <button class="trainer-link" data-trainer="Sneha Kulkarni">Book Trainer <span class="bar"></span></button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRANSFORMATIONS ============ -->
+<section class="section section-dark" id="transformations">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Real Results</div>
+        <h2 class="display-lg" data-split>Transformations<br>That Speak First</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.12s">Drag the slider to see the change. Every result shown is from real Aura members, documented over 12–24 weeks.</p>
+      </div>
+    </div>
+
+    <div class="transform-grid">
+      <article class="ba-card" data-reveal style="--d:.05s">
+        <div class="ba" data-ba>
+          <img class="before-img" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Before transformation" loading="lazy">
+          <img class="after-img" src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="After transformation" loading="lazy">
+          <div class="tag b">Before</div><div class="tag a">After</div>
+          <div class="divider"></div>
+          <div class="handle"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></div>
+        </div>
+        <div class="ba-info">
+          <h3>Aditya R. — 22 Weeks</h3>
+          <div class="res"><span class="res-pill">−18 kg</span><span class="res-pill">Fat Loss</span><span class="res-pill">+ Strength</span></div>
+          <p>“I'd tried three gyms before Aura. The difference was accountability — my coach tracked every single week.”</p>
+        </div>
+      </article>
+
+      <article class="ba-card" data-reveal style="--d:.12s">
+        <div class="ba" data-ba>
+          <img class="before-img" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80" alt="Before transformation" loading="lazy">
+          <img class="after-img" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80" alt="After transformation" loading="lazy">
+          <div class="tag b">Before</div><div class="tag a">After</div>
+          <div class="divider"></div>
+          <div class="handle"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></div>
+        </div>
+        <div class="ba-info">
+          <h3>Meera S. — 16 Weeks</h3>
+          <div class="res"><span class="res-pill">−11 kg</span><span class="res-pill">Post-Natal</span><span class="res-pill">Mobility</span></div>
+          <p>“The women's coaching and the flexibility of class timings made it possible around my work and my baby.”</p>
+        </div>
+      </article>
+
+      <article class="ba-card" data-reveal style="--d:.19s">
+        <div class="ba" data-ba>
+          <img class="before-img" src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=900&q=80" alt="Before transformation" loading="lazy">
+          <img class="after-img" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=80" alt="After transformation" loading="lazy">
+          <div class="tag b">Before</div><div class="tag a">After</div>
+          <div class="divider"></div>
+          <div class="handle"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></div>
+        </div>
+        <div class="ba-info">
+          <h3>Karan V. — 24 Weeks</h3>
+          <div class="res"><span class="res-pill">+9 kg Lean</span><span class="res-pill">Muscle Gain</span><span class="res-pill">Strength</span></div>
+          <p>“Structured programming and clean nutrition guidance. I've never looked or felt this strong in my life.”</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEMBERSHIP ============ -->
+<section class="section section-light" id="membership">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Membership Plans</div>
+        <h2 class="display-lg" data-split>Invest In The<br>Best Version Of You</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.1s">Transparent pricing. No hidden charges. Every plan includes a complimentary fitness assessment and body composition scan.</p>
+        <div class="price-toggle" data-reveal style="--d:.18s" role="group" aria-label="Pricing toggle">
+          <button class="toggle-btn active" data-price-mode="regular">Regular</button>
+          <button class="toggle-btn" data-price-mode="offer">Founding Offer −20%</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="price-grid">
+      <div class="price-card" data-reveal style="--d:.05s">
+        <div class="p-head">Monthly</div>
+        <div class="p-sub">Perfect for testing the Aura experience with zero long-term commitment.</div>
+        <div class="p-price"><span class="cur">₹</span><span class="amt" data-price="2499">2,499</span><span class="per">/ month</span></div>
+        <div class="p-save" data-save>&nbsp;</div>
+        <ul class="p-feat">
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Full gym floor access</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>2 group classes / week</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Fitness assessment</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Locker & shower access</li>
+        </ul>
+        <a href="#booking" class="btn btn-dark magnetic"><span class="magnetic-inner">Join Now</span></a>
+      </div>
+
+      <div class="price-card" data-reveal style="--d:.12s">
+        <div class="p-badge" style="background:#111">Most Popular</div>
+        <div class="p-head">Quarterly</div>
+        <div class="p-sub">The sweet spot for visible results — long enough to transform, short enough to commit.</div>
+        <div class="p-price"><span class="cur">₹</span><span class="amt" data-price="6499">6,499</span><span class="per">/ 3 months</span></div>
+        <div class="p-save" data-save>&nbsp;</div>
+        <ul class="p-feat">
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Everything in Monthly</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Unlimited group classes</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Monthly progress review</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Basic diet guidance</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Guest pass × 2</li>
+        </ul>
+        <a href="#booking" class="btn btn-primary magnetic"><span class="magnetic-inner">Join Now</span></a>
+      </div>
+
+      <div class="price-card featured" data-reveal style="--d:.19s">
+        <div class="p-badge">Best Value</div>
+        <div class="p-head">Annual</div>
+        <div class="p-sub">Our complete transformation package with maximum savings and priority support.</div>
+        <div class="p-price"><span class="cur">₹</span><span class="amt" data-price="19999">19,999</span><span class="per">/ year</span></div>
+        <div class="p-save" data-save>&nbsp;</div>
+        <ul class="p-feat">
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#ff5b62" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Everything in Quarterly</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#ff5b62" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>4 personal training sessions</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#ff5b62" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Custom nutrition blueprint</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#ff5b62" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Quarterly body composition scan</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#ff5b62" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Freeze option & priority booking</li>
+        </ul>
+        <a href="#booking" class="btn btn-primary magnetic"><span class="magnetic-inner">Join Now</span></a>
+      </div>
+
+      <div class="price-card" data-reveal style="--d:.26s">
+        <div class="p-head">Personal Training</div>
+        <div class="p-sub">One-on-one coaching with a dedicated specialist and fully custom programming.</div>
+        <div class="p-price"><span class="cur">₹</span><span class="amt" data-price="8999">8,999</span><span class="per">/ month</span></div>
+        <div class="p-save" data-save>&nbsp;</div>
+        <ul class="p-feat">
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>12 private sessions / month</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Fully custom programme</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Weekly nutrition check-ins</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>WhatsApp coach support</li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="3"><path d="M4 12l6 6L20 6"/></svg>Includes full gym access</li>
+        </ul>
+        <a href="#booking" class="btn btn-dark magnetic"><span class="magnetic-inner">Book PT</span></a>
+      </div>
+    </div>
+
+    <div style="margin-top:30px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+      <div class="badge-pill" data-reveal><span class="pulse-dot"></span> Limited: Founding Member pricing ends this month</div>
+      <a href="#contact" class="btn btn-primary magnetic" data-reveal style="--d:.1s"><span class="magnetic-inner">Request A Callback</span><svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CALCULATOR HUB ============ -->
+<section class="section section-alt" id="calculators">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Smart Fitness Calculator Hub</div>
+        <h2 class="display-lg" data-split>Know Your Numbers.<br>Then Beat Them.</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.1s">Enter your details once and get a complete picture — BMI, BMR, daily calories, body fat estimate, ideal weight range and a realistic weekly projection.</p>
+      </div>
+    </div>
+
+    <div class="calc-shell">
+      <div class="panel" data-reveal="left">
+        <div class="tabs" role="tablist" aria-label="Calculator type">
+          <button class="tab active" data-calc-tab="bmi" role="tab" aria-selected="true">BMI</button>
+          <button class="tab" data-calc-tab="bmr" role="tab" aria-selected="false">BMR</button>
+          <button class="tab" data-calc-tab="calories" role="tab" aria-selected="false">Calories</button>
+          <button class="tab" data-calc-tab="bodyfat" role="tab" aria-selected="false">Body Fat</button>
+          <button class="tab" data-calc-tab="ideal" role="tab" aria-selected="false">Ideal Weight</button>
+        </div>
+
+        <form id="calcForm" novalidate>
+          <div class="field-grid">
+            <div class="field full">
+              <label id="genderLabel">Gender</label>
+              <div class="seg" role="group" aria-labelledby="genderLabel">
+                <button type="button" class="active" data-gender="male">Male</button>
+                <button type="button" data-gender="female">Female</button>
+              </div>
+            </div>
+            <div class="field">
+              <label for="cAge">Age (years)</label>
+              <input class="input" type="number" id="cAge" value="28" min="12" max="90" required>
+            </div>
+            <div class="field">
+              <label for="cHeight">Height (cm)</label>
+              <input class="input" type="number" id="cHeight" value="175" min="120" max="230" required>
+            </div>
+            <div class="field">
+              <label for="cWeight">Weight (kg)</label>
+              <input class="input" type="number" id="cWeight" value="78" min="30" max="250" required>
+            </div>
+            <div class="field">
+              <label for="cNeck">Neck (cm)</label>
+              <input class="input" type="number" id="cNeck" value="38" min="20" max="70">
+            </div>
+            <div class="field">
+              <label for="cWaist">Waist (cm)</label>
+              <input class="input" type="number" id="cWaist" value="88" min="40" max="200">
+            </div>
+            <div class="field">
+              <label for="cHip">Hip (cm) — female</label>
+              <input class="input" type="number" id="cHip" value="95" min="40" max="200">
+            </div>
+            <div class="field full">
+              <label for="cActivity">Activity Level</label>
+              <select class="select" id="cActivity">
+                <option value="1.2">Sedentary — desk job, little exercise</option>
+                <option value="1.375" selected>Lightly active — 1–3 workouts / week</option>
+                <option value="1.55">Moderately active — 3–5 workouts / week</option>
+                <option value="1.725">Very active — 6–7 hard workouts / week</option>
+                <option value="1.9">Athlete — twice daily training</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label id="goalLabel">Primary Goal</label>
+              <div class="seg" role="group" aria-labelledby="goalLabel">
+                <button type="button" class="active" data-goal="lose">Lose Fat</button>
+                <button type="button" data-goal="maintain">Maintain</button>
+                <button type="button" data-goal="gain">Build Muscle</button>
+              </div>
+            </div>
+            <div class="field full">
+              <button type="submit" class="btn btn-primary magnetic" style="width:100%"><span class="magnetic-inner">Calculate My Results</span><svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            </div>
+          </div>
+        </form>
+
+        <div class="disclaimer" style="margin-top:20px">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"/><path d="M12 8v.5M12 11.5v5"/></svg>
+          <span>All values are scientific estimates based on standard formulas (Mifflin-St Jeor, Deurenberg, Harris-Benedict). They are not medical advice. For a precise assessment and a plan tailored to your body, speak with an Aura coach.</span>
+        </div>
+      </div>
+
+      <div class="results" data-reveal="right" id="resultsPanel">
+        <div style="position:relative;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:22px">
+          <div>
+            <div class="eyebrow" style="margin-bottom:10px">Your Personalised Dashboard</div>
+            <h3 class="display-sm" id="resultHeadline">Your results will appear here</h3>
+          </div>
+          <div class="badge-pill" id="bmiBadge">Awaiting input</div>
+        </div>
+
+        <div class="res-grid">
+          <div class="res-tile"><div class="lbl">BMI</div><div class="val" id="rBMI">—</div><div class="sub" id="rBMICat">Body mass index</div></div>
+          <div class="res-tile"><div class="lbl">BMR</div><div class="val" id="rBMR">—</div><div class="sub">calories at complete rest</div></div>
+          <div class="res-tile"><div class="lbl">Daily Calories</div><div class="val" id="rTDEE">—</div><div class="sub" id="rTDEESub">maintenance estimate</div></div>
+          <div class="res-tile"><div class="lbl">Goal Target</div><div class="val" id="rGoalCal">—</div><div class="sub" id="rGoalSub">recommended intake</div></div>
+          <div class="res-tile"><div class="lbl">Body Fat Est.</div><div class="val" id="rBF">—</div><div class="sub">Deurenberg formula</div></div>
+          <div class="res-tile"><div class="lbl">Ideal Weight</div><div class="val" id="rIdeal">—</div><div class="sub">healthy BMI range</div></div>
+        </div>
+
+        <div class="chart-box">
+          <h4>12-Week Weight Projection</h4>
+          <svg id="projectionChart" viewBox="0 0 600 220" role="img" aria-label="Projected weight over 12 weeks"></svg>
+        </div>
+
+        <div class="chart-box">
+          <h4>Goal Breakdown</h4>
+          <div class="bars" id="macroBars">
+            <div class="bar-row"><div class="bl">Protein</div><div class="bar-track"><div class="bar-fill" data-bar="0"></div></div><div class="bv" id="bProtein">—</div></div>
+            <div class="bar-row"><div class="bl">Carbohydrates</div><div class="bar-track"><div class="bar-fill" data-bar="1"></div></div><div class="bv" id="bCarbs">—</div></div>
+            <div class="bar-row"><div class="bl">Fats</div><div class="bar-track"><div class="bar-fill" data-bar="2"></div></div><div class="bv" id="bFats">—</div></div>
+            <div class="bar-row"><div class="bl">Weekly Progress</div><div class="bar-track"><div class="bar-fill" data-bar="3"></div></div><div class="bv" id="bWeekly">—</div></div>
+            <div class="bar-row"><div class="bl">Workouts / Week</div><div class="bar-track"><div class="bar-fill" data-bar="4"></div></div><div class="bv" id="bFreq">—</div></div>
+          </div>
+        </div>
+
+        <div class="chart-box">
+          <h4>Suggested 7-Day Beginner Routine</h4>
+          <div class="routine" id="routineGrid">
+            <div class="routine-day"><div class="d">Day 1</div><div class="t">Full Body Strength</div><div class="s">Squat, bench, row, plank — 3 sets each.</div></div>
+            <div class="routine-day"><div class="d">Day 2</div><div class="t">Cardio + Mobility</div><div class="s">25 min brisk walk/cycle + 10 min stretching.</div></div>
+            <div class="routine-day"><div class="d">Day 3</div><div class="t">Upper Body</div><div class="s">Press, pulldown, shoulder press, curls.</div></div>
+            <div class="routine-day"><div class="d">Day 4</div><div class="t">Active Rest</div><div class="s">Light walk, yoga flow or complete rest.</div></div>
+            <div class="routine-day"><div class="d">Day 5</div><div class="t">Lower Body</div><div class="s">Deadlift pattern, lunges, leg curl, calf raises.</div></div>
+            <div class="routine-day"><div class="d">Day 6</div><div class="t">HIIT Conditioning</div><div class="s">20 min intervals: 40s work / 20s rest × 8.</div></div>
+            <div class="routine-day"><div class="d">Day 7</div><div class="t">Recovery</div><div class="s">Full rest, hydration focus, sleep 7–8 hours.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRESS PLANNER ============ -->
+<section class="section section-light" id="planner">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Progress Planner</div>
+        <h2 class="display-lg" data-split>Your Week,<br>Planned Perfectly</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.1s">Tell us where you are and where you want to be. We'll generate a balanced weekly plan with training days, cardio, rest and a realistic timeline.</p>
+      </div>
+    </div>
+
+    <div class="panel" data-reveal="fade">
+      <form id="plannerForm" novalidate>
+        <div class="field-grid" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr))">
+          <div class="field">
+            <label for="pCurrent">Current Weight (kg)</label>
+            <input class="input" type="number" id="pCurrent" value="82" min="35" max="220" required>
+          </div>
+          <div class="field">
+            <label for="pTarget">Target Weight (kg)</label>
+            <input class="input" type="number" id="pTarget" value="72" min="35" max="220" required>
+          </div>
+          <div class="field">
+            <label for="pGoal">Goal</label>
+            <select class="select" id="pGoal">
+              <option value="lose" selected>Fat Loss</option>
+              <option value="gain">Muscle Gain</option>
+              <option value="recomp">Body Recomposition</option>
+              <option value="fitness">General Fitness</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="pActivity">Activity Level</label>
+            <select class="select" id="pActivity">
+              <option value="beginner">Beginner</option>
+              <option value="intermediate" selected>Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="pDays">Training Days / Week</label>
+            <select class="select" id="pDays">
+              <option value="3">3 days</option>
+              <option value="4" selected>4 days</option>
+              <option value="5">5 days</option>
+              <option value="6">6 days</option>
+            </select>
+          </div>
+          <div class="field" style="justify-content:flex-end">
+            <button type="submit" class="btn btn-primary magnetic" style="width:100%"><span class="magnetic-inner">Generate My Plan</span></button>
+          </div>
+        </div>
+      </form>
+
+      <div style="margin-top:30px">
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+          <h3 class="display-sm">Your Weekly Schedule</h3>
+          <div class="badge-pill" id="planSummary">4 training days · balanced split</div>
+        </div>
+        <div class="plan-grid" id="planGrid">
+          <!-- generated -->
+        </div>
+      </div>
+
+      <div style="margin-top:28px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:20px" class="plan-bottom">
+        <div style="background:#faf9f8;border:1px solid rgba(10,10,10,.09);border-radius:18px;padding:22px">
+          <h4 style="font-family:'Inter',sans-serif;font-size:.845rem;letter-spacing:.17em;text-transform:uppercase;font-weight:700;color:#6b6864;margin-bottom:14px">Projected Timeline</h4>
+          <svg id="planChart" viewBox="0 0 600 220" role="img" aria-label="Projected weight timeline"></svg>
+        </div>
+        <div style="background:#faf9f8;border:1px solid rgba(10,10,10,.09);border-radius:18px;padding:22px">
+          <h4 style="font-family:'Inter',sans-serif;font-size:.845rem;letter-spacing:.17em;text-transform:uppercase;font-weight:700;color:#6b6864;margin-bottom:14px">Plan Highlights</h4>
+          <div id="planHighlights" style="display:grid;gap:12px">
+            <div style="display:flex;justify-content:space-between;gap:12px;padding-bottom:11px;border-bottom:1px solid rgba(10,10,10,.09)"><span style="font-size:.885rem;color:#6b6864">Estimated Timeline</span><strong id="hlTimeline">—</strong></div>
+            <div style="display:flex;justify-content:space-between;gap:12px;padding-bottom:11px;border-bottom:1px solid rgba(10,10,10,.09)"><span style="font-size:.885rem;color:#6b6864">Weekly Change</span><strong id="hlWeekly">—</strong></div>
+            <div style="display:flex;justify-content:space-between;gap:12px;padding-bottom:11px;border-bottom:1px solid rgba(10,10,10,.09)"><span style="font-size:.885rem;color:#6b6864">Cardio / Week</span><strong id="hlCardio">—</strong></div>
+            <div style="display:flex;justify-content:space-between;gap:12px;padding-bottom:11px;border-bottom:1px solid rgba(10,10,10,.09)"><span style="font-size:.885rem;color:#6b6864">Rest Days</span><strong id="hlRest">—</strong></div>
+            <div style="display:flex;justify-content:space-between;gap:12px"><span style="font-size:.885rem;color:#6b6864">Calorie Target</span><strong id="hlCal">—</strong></div>
+          </div>
+          <a href="#booking" class="btn btn-dark magnetic" style="width:100%;margin-top:20px"><span class="magnetic-inner">Coach Review Session</span></a>
+        </div>
+      </div>
+
+      <div class="disclaimer" style="margin-top:22px">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"/><path d="M12 8v.5M12 11.5v5"/></svg>
+        <span>Projections are estimates based on standard energy-balance models. Real results vary with metabolism, adherence, sleep and medical history. Consult a qualified professional before starting any new training or nutrition programme.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section class="section section-dark" id="booking">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Online Booking</div>
+        <h2 class="display-lg" data-split>Book Your Free<br>Trial In 60 Seconds</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.1s">Choose your experience, pick your coach and lock in a time. Our team will confirm on WhatsApp within 30 minutes.</p>
+      </div>
+    </div>
+
+    <div class="booking-shell">
+      <div class="panel" data-reveal="left">
+        <div class="steps" id="bookingSteps">
+          <div class="step active"><div class="bubble">1</div><div class="txt">Experience</div></div>
+          <div class="step-line"></div>
+          <div class="step"><div class="bubble">2</div><div class="txt">Program</div></div>
+          <div class="step-line"></div>
+          <div class="step"><div class="bubble">3</div><div class="txt">Trainer</div></div>
+          <div class="step-line"></div>
+          <div class="step"><div class="bubble">4</div><div class="txt">Date & Time</div></div>
+          <div class="step-line"></div>
+          <div class="step"><div class="bubble">5</div><div class="txt">Details</div></div>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="bstep active" data-step="1">
+          <h3 class="display-sm" style="margin-bottom:18px">What would you like to book?</h3>
+          <div class="opt-grid" data-single="experience">
+            <button type="button" class="opt selected" data-value="Free Trial Session">
+              <div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div>
+              <div class="ot">Free Trial Session</div><div class="os">Full gym access + a guided workout with a coach. No cost, no commitment.</div>
+            </button>
+            <button type="button" class="opt" data-value="Personal Training Consultation">
+              <div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div>
+              <div class="ot">Personal Training Consult</div><div class="os">Body assessment, goal mapping and a sample private training session.</div>
+            </button>
+            <button type="button" class="opt" data-value="Group Class Booking">
+              <div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div>
+              <div class="ot">Group Class</div><div class="os">Reserve a spot in Zumba, Yoga, HIIT, Kickboxing or Functional Training.</div>
+            </button>
+            <button type="button" class="opt" data-value="Membership & Gym Tour">
+              <div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div>
+              <div class="ot">Gym Tour & Membership</div><div class="os">Walk through the facility and get a personalised plan recommendation.</div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bstep" data-step="2">
+          <h3 class="display-sm" style="margin-bottom:18px">Select a program</h3>
+          <div class="opt-grid" data-single="program">
+            <button type="button" class="opt selected" data-value="Strength Training"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Strength Training</div><div class="os">Compound lifts · progressive overload</div></button>
+            <button type="button" class="opt" data-value="Weight Loss & Fat Loss"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Weight Loss</div><div class="os">Metabolic circuits · nutrition guidance</div></button>
+            <button type="button" class="opt" data-value="Personal Training"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Personal Training</div><div class="os">1-on-1 custom coaching</div></button>
+            <button type="button" class="opt" data-value="Cardio & HIIT"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Cardio & HIIT</div><div class="os">Endurance · interval conditioning</div></button>
+            <button type="button" class="opt" data-value="Zumba & Dance Fitness"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Zumba & Dance Fit</div><div class="os">High-energy group sessions</div></button>
+            <button type="button" class="opt" data-value="Yoga & Mobility"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Yoga & Mobility</div><div class="os">Flexibility · recovery · breathwork</div></button>
+            <button type="button" class="opt" data-value="Kickboxing"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Kickboxing</div><div class="os">Pad work · bag rounds · technique</div></button>
+            <button type="button" class="opt" data-value="Functional Training"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Functional Training</div><div class="os">Kettlebells · sleds · calisthenics</div></button>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bstep" data-step="3">
+          <h3 class="display-sm" style="margin-bottom:18px">Choose your trainer</h3>
+          <div class="opt-grid" data-single="trainer">
+            <button type="button" class="opt selected" data-value="No Preference"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">No Preference</div><div class="os">We'll match you with the best available coach.</div></button>
+            <button type="button" class="opt" data-value="Arjun Mehta"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Arjun Mehta</div><div class="os">Head Coach · Strength & Powerlifting · 11 yrs</div></button>
+            <button type="button" class="opt" data-value="Priya Nair"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Priya Nair</div><div class="os">Fat Loss & Nutrition · Pre/Post Natal · 8 yrs</div></button>
+            <button type="button" class="opt" data-value="Rohan Deshmukh"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Rohan Deshmukh</div><div class="os">Kickboxing & Conditioning · 9 yrs</div></button>
+            <button type="button" class="opt" data-value="Sneha Kulkarni"><div class="check"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.4"><path d="M4 12l6 6L20 6"/></svg></div><div class="ot">Sneha Kulkarni</div><div class="os">Yoga & Mobility · RYT-500 · 7 yrs</div></button>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="bstep" data-step="4">
+          <h3 class="display-sm" style="margin-bottom:18px">Pick a date & time</h3>
+          <div class="field-grid" style="margin-bottom:20px">
+            <div class="field">
+              <label for="bDate">Preferred Date</label>
+              <input class="input" type="date" id="bDate">
+            </div>
+            <div class="field">
+              <label for="bSession">Session Type</label>
+              <select class="select" id="bSession">
+                <option>60 Minute Session</option>
+                <option>45 Minute Session</option>
+                <option>90 Minute Assessment</option>
+              </select>
+            </div>
+          </div>
+          <label style="font-size:10.4px;letter-spacing:.19em;text-transform:uppercase;font-weight:700;color:#6b6864;display:block;margin-bottom:11px">Available Slots</label>
+          <div class="slot-grid" id="slotGrid">
+            <button type="button" class="slot">06:00 AM</button>
+            <button type="button" class="slot">07:00 AM</button>
+            <button type="button" class="slot disabled" disabled>08:00 AM</button>
+            <button type="button" class="slot">10:00 AM</button>
+            <button type="button" class="slot">12:00 PM</button>
+            <button type="button" class="slot">05:00 PM</button>
+            <button type="button" class="slot selected">06:00 PM</button>
+            <button type="button" class="slot">07:00 PM</button>
+            <button type="button" class="slot">08:00 PM</button>
+            <button type="button" class="slot disabled" disabled>09:00 PM</button>
+          </div>
+          <p class="helper" style="margin-top:14px">Slots marked unavailable are fully booked. Weekend slots fill quickly — book early to secure your preferred time.</p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="bstep" data-step="5">
+          <h3 class="display-sm" style="margin-bottom:18px">Your details</h3>
+          <form id="bookingForm" novalidate>
+            <div class="field-grid">
+              <div class="field"><label for="bName">Full Name</label><input class="input" type="text" id="bName" placeholder="Enter your name" required></div>
+              <div class="field"><label for="bPhone">Phone Number</label><input class="input" type="tel" id="bPhone" placeholder="+91 98765 43210" required></div>
+              <div class="field"><label for="bEmail">Email Address</label><input class="input" type="email" id="bEmail" placeholder="you@email.com" required></div>
+              <div class="field"><label for="bAge">Age</label><input class="input" type="number" id="bAge" placeholder="28" min="12" max="90"></div>
+              <div class="field full"><label for="bMessage">Anything we should know?</label><textarea class="textarea" id="bMessage" placeholder="Injuries, medical conditions, specific goals or preferred language..."></textarea></div>
+            </div>
+            <label style="display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:.855rem;color:#6b6864;line-height:1.6">
+              <input type="checkbox" id="bConsent" checked style="margin-top:4px;accent-color:#e0202b">
+              <span>I agree to be contacted by Aura Fitness Club via call, WhatsApp or email regarding my booking and membership offers.</span>
+            </label>
+          </form>
+        </div>
+
+        <!-- Confirmation -->
+        <div class="bstep" data-step="6">
+          <div class="confirm-box">
+            <div class="confirm-icon">
+              <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#e0202b" stroke-width="2.4" stroke-linecap="round"><path d="M4 12.5l5 5L20 6.5"/></svg>
+            </div>
+            <h3 class="display-md" style="margin-bottom:12px">Booking Confirmed</h3>
+            <p class="lead" style="max-width:460px;margin:0 auto 22px">Thank you! Your request has been received. Our team will reach out on WhatsApp within 30 minutes to confirm your slot.</p>
+            <div style="max-width:420px;margin:0 auto;text-align:left">
+              <div class="sum-row"><span class="k">Booking ID</span><span class="v" id="cId">—</span></div>
+              <div class="sum-row"><span class="k">Experience</span><span class="v" id="cExperience">—</span></div>
+              <div class="sum-row"><span class="k">Program</span><span class="v" id="cProgram">—</span></div>
+              <div class="sum-row"><span class="k">Trainer</span><span class="v" id="cTrainer">—</span></div>
+              <div class="sum-row"><span class="k">Date & Time</span><span class="v" id="cDateTime">—</span></div>
+              <div class="sum-row" style="border-bottom:0"><span class="k">Name</span><span class="v" id="cName">—</span></div>
+            </div>
+            <div class="nav-btns" style="justify-content:center">
+              <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="btn btn-primary magnetic"><span class="magnetic-inner">WhatsApp Us</span></a>
+              <button type="button" class="btn btn-ghost" id="restartBooking">New Booking</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-btns" id="bookingNav">
+          <button type="button" class="btn btn-ghost" id="prevStep" style="display:none">Back</button>
+          <button type="button" class="btn btn-primary magnetic" id="nextStep"><span class="magnetic-inner">Continue</span><svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+
+      <aside class="booking-aside" data-reveal="right">
+        <div class="thumb"><img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=900&q=80" alt="Aura Fitness Club training floor" loading="lazy"></div>
+        <h3 class="display-sm" style="margin-bottom:8px">Your Booking</h3>
+        <p class="muted" style="font-size:.905rem;margin-bottom:18px">Review your selection before confirming. You can change anything by going back a step.</p>
+        <div class="sum-row"><span class="k">Experience</span><span class="v" id="sExperience">Free Trial Session</span></div>
+        <div class="sum-row"><span class="k">Program</span><span class="v" id="sProgram">Strength Training</span></div>
+        <div class="sum-row"><span class="k">Trainer</span><span class="v" id="sTrainer">No Preference</span></div>
+        <div class="sum-row"><span class="k">Date</span><span class="v" id="sDate">Select date</span></div>
+        <div class="sum-row"><span class="k">Time</span><span class="v" id="sTime">06:00 PM</span></div>
+        <div class="sum-row" style="border-bottom:0"><span class="k">Session</span><span class="v" id="sSession">60 Minute Session</span></div>
+        <div style="margin-top:22px;padding:17px;border-radius:14px;background:rgba(224,32,43,.14);border:1px solid rgba(224,32,43,.3)">
+          <div style="font-size:9.4px;letter-spacing:.22em;text-transform:uppercase;color:#ff8a8a;margin-bottom:6px">Free Trial Includes</div>
+          <div style="font-size:.9rem;line-height:1.7;color:#e6e3df">Body composition scan · Coach-guided workout · Facility tour · Goal consultation</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;margin-top:18px">
+          <div class="pulse-dot"></div>
+          <div style="font-size:.845rem;color:#a09d98">Average response time: under 30 minutes</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section section-alt" id="testimonials">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Member Stories</div>
+        <h2 class="display-lg" data-split>Trusted By 2,400+<br>Members In Pune</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.1s">Real words from real members. No scripts, no filters — just people who decided to change and never looked back.</p>
+      </div>
+    </div>
+
+    <div data-reveal="fade">
+      <div class="t-viewport">
+        <div class="t-track" id="tTrack">
+          <div class="t-slide">
+            <div class="stars">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+            </div>
+            <div class="t-quote">“Aura completely changed my relationship with fitness. The coaches don't just count reps — they teach you how to train. I've lost 16 kg and kept it off for over a year.”</div>
+            <div class="t-person">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80" alt="Rahul Sharma" loading="lazy">
+              <div><div class="n">Rahul Sharma</div><div class="r">Member since 2022 · Fat Loss Program</div></div>
+            </div>
+          </div>
+          <div class="t-slide">
+            <div class="stars">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+            </div>
+            <div class="t-quote">“The cleanest, most professional gym I've trained at in Pune. Equipment is always maintained, the trainers are genuinely qualified and the energy is unmatched.”</div>
+            <div class="t-person">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" alt="Ananya Joshi" loading="lazy">
+              <div><div class="n">Ananya Joshi</div><div class="r">Member since 2023 · Personal Training</div></div>
+            </div>
+          </div>
+          <div class="t-slide">
+            <div class="stars">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="#e0202b"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>
+            </div>
+            <div class="t-quote">“I joined for weight loss and stayed for the community. The 6 AM crew feels like family now. Down 12 kg and my back pain is completely gone.”</div>
+            <div class="t-person">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" alt="Vikram Patil" loading="lazy">
+              <div><div class="n">Vikram Patil</div><div class="r">Member since 2021 · Functional Training</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="t-nav">
+        <button class="t-btn" id="tPrev" aria-label="Previous testimonial"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <button class="t-btn" id="tNext" aria-label="Next testimonial"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button>
+        <div class="t-dots" id="tDots"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section section-dark" id="gallery">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Inside Aura</div>
+        <h2 class="display-lg" data-split>The Atmosphere<br>Does Half The Work</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.1s">A look inside our facility, our training culture and the energy that keeps our members coming back.</p>
+      </div>
+    </div>
+
+    <div class="gal-grid" id="galGrid">
+      <div class="gal-item w2 img-reveal" data-reveal="scale" data-full="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1800&q=85">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80" alt="Strength training floor" loading="lazy">
+        <div class="ov"></div><div class="cap">Strength Floor</div>
+      </div>
+      <div class="gal-item img-reveal" data-reveal="scale" style="--d:.08s" data-full="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1800&q=85">
+        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=900&q=80" alt="Machine training area" loading="lazy">
+        <div class="ov"></div><div class="cap">Machine Zone</div>
+      </div>
+      <div class="gal-item img-reveal" data-reveal="scale" style="--d:.14s" data-full="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1800&q=85">
+        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Personal training" loading="lazy">
+        <div class="ov"></div><div class="cap">Personal Training</div>
+      </div>
+      <div class="gal-item img-reveal" data-reveal="scale" style="--d:.2s" data-full="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=1800&q=85">
+        <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=900&q=80" alt="Cardio training" loading="lazy">
+        <div class="ov"></div><div class="cap">Cardio Zone</div>
+      </div>
+      <div class="gal-item img-reveal" data-reveal="scale" style="--d:.26s" data-full="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1800&q=85">
+        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80" alt="Yoga studio" loading="lazy">
+        <div class="ov"></div><div class="cap">Yoga Studio</div>
+      </div>
+      <div class="gal-item img-reveal" data-reveal="scale" style="--d:.32s" data-full="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1800&q=85">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Functional training" loading="lazy">
+        <div class="ov"></div><div class="cap">Functional Turf</div>
+      </div>
+      <div class="gal-item w2 img-reveal" data-reveal="scale" style="--d:.38s" data-full="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1800&q=85">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80" alt="Group workout session" loading="lazy">
+        <div class="ov"></div><div class="cap">Group Sessions</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="cta-band">
+  <div class="bgimg"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1920&q=80" alt="Training at Aura Fitness Club" loading="lazy"></div>
+  <div class="inner wrap">
+    <div class="eyebrow" style="color:#f2d6d7;justify-content:center">Limited Time · Founding Member Offer</div>
+    <h2 class="display-lg" data-split style="max-width:900px;margin:0 auto 22px">Your First Session<br>Is Completely Free</h2>
+    <p class="lead" data-reveal style="max-width:610px;margin:0 auto 32px;color:#e2dfda">Walk in, train with a coach, experience the Aura difference — and decide for yourself. No pressure, no obligation.</p>
+    <div class="hero-actions" style="justify-content:center;opacity:1;transform:none">
+      <a href="#booking" class="btn btn-primary magnetic"><span class="magnetic-inner">Claim Free Trial</span><svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a href="tel:+919876543210" class="btn btn-ghost magnetic"><span class="magnetic-inner">Call +91 98765 43210</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section-alt" id="faq">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Frequently Asked Questions</div>
+        <h2 class="display-lg" data-split>Everything You<br>Need To Know</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.1s">Can't find your answer? Message us on WhatsApp and our team will respond within minutes during working hours.</p>
+      </div>
+    </div>
+
+    <div class="faq-list" id="faqList">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you offer a free trial before I commit to a membership?<span class="faq-icon" aria-hidden="true"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. Every new visitor gets a complimentary trial session that includes a full facility tour, a body composition scan, a coach-guided workout and a goal consultation. There is no obligation to sign up afterwards.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">What are your gym timings in Hadapsar?<span class="faq-icon" aria-hidden="true"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">We're open Monday to Friday from 5:30 AM to 11:00 PM, and Saturday & Sunday from 6:00 AM to 10:00 PM. Group class schedules vary — you can view the full timetable at the front desk or on our WhatsApp broadcast.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Are your trainers certified?<span class="faq-icon" aria-hidden="true"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Absolutely. Every coach at Aura holds a nationally or internationally recognised certification (K11, ACE, NSCA, CrossFit, RYT or equivalent) and undergoes continuous in-house training. Certifications are displayed on each trainer's profile.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can I freeze or transfer my membership?<span class="faq-icon" aria-hidden="true"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Half-yearly and annual plans include a freeze option (up to 30 days) for medical or travel reasons. Memberships are non-transferable, but we can arrange a referral credit if you'd like to gift a plan to someone.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you provide diet and nutrition guidance?<span class="faq-icon" aria-hidden="true"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. Quarterly plans and above include structured nutrition guidance, and our personal training packages include a fully customised nutrition blueprint with weekly check-ins. We focus on sustainable Indian meal plans — nothing extreme or impractical.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Is there parking and separate facilities for women?<span class="faq-icon" aria-hidden="true"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">We offer secure two-wheeler and car parking, separate changing rooms with lockers and showers, and dedicated women's training hours with female trainers available on request.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How quickly will I see results?<span class="faq-icon" aria-hidden="true"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Most members notice improved energy and strength within 2–3 weeks, with visible body composition changes typically by weeks 6–8 when training and nutrition are consistent. Every member receives a monthly progress review to keep things on track.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATION & CONTACT ============ -->
+<section class="section section-dark" id="contact">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <div class="rule" data-reveal="fade"></div>
+        <div class="eyebrow">Visit Us</div>
+        <h2 class="display-lg" data-split>Find Aura In<br>Hadapsar, Pune</h2>
+      </div>
+      <div>
+        <p class="lead" data-reveal style="--d:.1s">Conveniently located on Magarpatta Road with easy access from Kharadi, Kondhwa, Wanowrie and Hadapsar Gadital.</p>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div data-reveal="left">
+        <div class="map-wrap">
+          <iframe title="Aura Fitness Club location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Hadapsar%20Pune&t=&z=14&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+        <div class="contact-cards">
+          <a class="contact-card" href="https://maps.google.com/?q=Hadapsar+Pune" target="_blank" rel="noopener">
+            <div class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 21s7-5.6 7-11a7 7 0 10-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></div>
+            <div><div class="lbl">Location</div><div class="val">Magarpatta Road, Hadapsar, Pune 411028</div></div>
+          </a>
+          <a class="contact-card" href="tel:+919876543210">
+            <div class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M6 3h3l2 5-2.2 1.5a12 12 0 005.7 5.7L16 13l5 2v3a2 2 0 01-2.2 2A17 17 0 014 5.2 2 2 0 016 3z"/></svg></div>
+            <div><div class="lbl">Call Us</div><div class="val">+91 98765 43210</div></div>
+          </a>
+          <a class="contact-card" href="mailto:hello@aurafitnessclub.in">
+            <div class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></div>
+            <div><div class="lbl">Email</div><div class="val">hello@aurafitnessclub.in</div></div>
+          </a>
+          <div class="contact-card">
+            <div class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="8.6"/><path d="M12 7v5.2l3.3 2"/></svg></div>
+            <div><div class="lbl">Working Hours</div><div class="val">Mon–Fri: 5:30 AM – 11:00 PM · Sat–Sun: 6:00 AM – 10:00 PM</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel form-dark" data-reveal="right" style="background:#151515;border-color:var(--line);box-shadow:none">
+        <h3 class="display-sm" style="margin-bottom:8px">Send Us An Enquiry</h3>
+        <p class="muted" style="font-size:.925rem;margin-bottom:22px">Fill in your details and our membership advisor will call you back within 30 minutes.</p>
+        <form id="contactForm" novalidate>
+          <div class="field-grid">
+            <div class="field"><label for="fName">Full Name</label><input class="input" type="text" id="fName" placeholder="Your name" required></div>
+            <div class="field"><label for="fPhone">Phone</label><input class="input" type="tel" id="fPhone" placeholder="+91" required></div>
+            <div class="field"><label for="fEmail">Email</label><input class="input" type="email" id="fEmail" placeholder="you@email.com"></div>
+            <div class="field">
+              <label for="fInterest">I'm Interested In</label>
+              <select class="select" id="fInterest">
+                <option>Membership Plans</option>
+                <option>Free Trial Session</option>
+                <option>Personal Training</option>
+                <option>Group Classes</option>
+                <option>Corporate / Bulk Membership</option>
+              </select>
+            </div>
+            <div class="field full"><label for="fMsg">Message</label><textarea class="textarea" id="fMsg" placeholder="Tell us about your goals..."></textarea></div>
+            <div class="field full">
+              <button type="submit" class="btn btn-primary magnetic" style="width:100%"><span class="magnetic-inner">Submit Enquiry</span><svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+              <div class="form-msg" id="contactMsg">Thank you! Your enquiry has been received. Our team will contact you shortly.</div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-about">
+        <a href="#home" class="logo" style="margin-bottom:20px">
+          <div class="logo-mark">A</div>
+          <div class="logo-text">AURA<small>FITNESS CLUB</small></div>
+        </a>
+        <p>Aura Fitness Club is Hadapsar's premium destination for strength, conditioning and transformation. World-class equipment, certified coaching and a culture built on results.</p>
+        <div class="social-row">
+          <a class="social" href="#" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a class="social" href="#" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.5 8.5h2.2V5.4h-2.5c-2.3 0-3.7 1.5-3.7 3.7v1.7H8.2v3.1h2.3V21h3.2v-7.1h2.3l.4-3.1h-2.7V9.4c0-.6.3-.9.8-.9z"/></svg></a>
+          <a class="social" href="#" aria-label="YouTube"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.8" y="5.6" width="18.4" height="12.8" rx="4"/><path d="M10.4 9.6l4.6 2.4-4.6 2.4z" fill="currentColor" stroke="none"/></svg></a>
+          <a class="social" href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 11.7a8 8 0 01-11.9 7L4 20l1.4-3.9A8 8 0 1120 11.7z"/><path d="M9.2 9.1c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.5l.7 1.6c.1.3 0 .5-.1.7l-.4.5c-.1.2-.2.3 0 .6.2.3.8 1.3 1.7 2 .8.6 1 .7 1.2.6.2-.1.5-.6.7-.8.2-.2.3-.2.6-.1l1.6.8c.3.1.5.2.5.4 0 .2 0 .8-.3 1.3-.3.5-1.1 1-1.6 1-.4 0-1 0-2.4-.6-1.7-.7-2.9-2.4-3-2.5-.1-.1-.8-1.1-.8-2.1s.5-1.5.7-1.7z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="f-links">
+          <li><a href="#about">About Aura</a></li>
+          <li><a href="#programs">Training Programs</a></li>
+          <li><a href="#trainers">Our Trainers</a></li>
+          <li><a href="#membership">Membership Plans</a></li>
+          <li><a href="#transformations">Transformations</a></li>
+          <li><a href="#gallery">Gym Gallery</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Programs</h4>
+        <ul class="f-links">
+          <li><a href="#programs">Strength Training</a></li>
+          <li><a href="#programs">Weight Loss</a></li>
+          <li><a href="#programs">Personal Training</a></li>
+          <li><a href="#programs">Cardio & HIIT</a></li>
+          <li><a href="#programs">Zumba & Dance</a></li>
+          <li><a href="#programs">Yoga & Mobility</a></li>
+          <li><a href="#programs">Kickboxing</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Join The Inner Circle</h4>
+        <p style="font-size:.905rem;color:#8e8b87;line-height:1.8;margin-bottom:0">Get exclusive offers, training tips and early access to new programs straight to your inbox.</p>
+        <form class="newsletter" id="newsletterForm">
+          <input type="email" id="nlEmail" placeholder="Your email address" aria-label="Email address" required>
+          <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+        </form>
+        <div class="form-msg" id="nlMsg" style="margin-top:12px">You're subscribed! Welcome to the Aura inner circle.</div>
+        <div style="margin-top:22px">
+          <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" style="width:100%"><span>Chat On WhatsApp</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="f-bottom">
+      <div>© <span id="year">2024</span> Aura Fitness Club, Hadapsar Pune. All rights reserved.</div>
+      <div class="f-legal">
+        <a href="#" onclick="return false">Privacy Policy</a>
+        <a href="#" onclick="return false">Terms & Conditions</a>
+        <a href="#" onclick="return false">Refund Policy</a>
+        <a href="#" onclick="return false">Sitemap</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ STICKY RAIL ============ -->
+<div class="sticky-rail" aria-label="Quick actions">
+  <a class="rail-btn primary" href="#booking"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg><span class="lbl">Book Free Trial</span></a>
+  <a class="rail-btn" href="https://wa.me/919876543210" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 11.7a8 8 0 01-11.9 7L4 20l1.4-3.9A8 8 0 1120 11.7z"/></svg><span class="lbl">WhatsApp</span></a>
+  <a class="rail-btn" href="tel:+919876543210"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M6 3h3l2 5-2.2 1.5a12 12 0 005.7 5.7L16 13l5 2v3a2 2 0 01-2.2 2A17 17 0 014 5.2 2 2 0 016 3z"/></svg><span class="lbl">Call Now</span></a>
+  <a class="rail-btn" href="#membership"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg><span class="lbl">Join Now</span></a>
+</div>
+
+<nav class="mobile-bar" aria-label="Quick actions mobile">
+  <a href="tel:+919876543210"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M6 3h3l2 5-2.2 1.5a12 12 0 005.7 5.7L16 13l5 2v3a2 2 0 01-2.2 2A17 17 0 014 5.2 2 2 0 016 3z"/></svg>Call</a>
+  <a href="https://wa.me/919876543210" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 11.7a8 8 0 01-11.9 7L4 20l1.4-3.9A8 8 0 1120 11.7z"/></svg>WhatsApp</a>
+  <a href="#membership"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 2l2.9 6.2 6.6.9-4.8 4.7 1.2 6.7-5.9-3.2-5.9 3.2 1.2-6.7L2.5 9.1l6.6-.9z"/></svg>Plans</a>
+  <a href="#booking" class="primary"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>Book</a>
+</nav>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" id="lbClose" aria-label="Close"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="lb-nav prev" id="lbPrev" aria-label="Previous image"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button>
+  <img id="lbImg" src="" alt="Gallery image enlarged">
+  <button class="lb-nav next" id="lbNext" aria-label="Next image"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button>
+  <div class="lb-cap" id="lbCap"></div>
+</div>
+
+<script>
+/* =========================================================
+   AURA FITNESS CLUB — Interaction Layer
+   ========================================================= */
+(function(){
+  "use strict";
+
+  const $  = (s, c) => (c || document).querySelector(s);
+  const $$ = (s, c) => Array.from((c || document).querySelectorAll(s));
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- CMS-style editable config ---------- */
+  const CMS = {
+    brand: { name: "Aura Fitness Club", phone: "+91 98765 43210", whatsapp: "919876543210" },
+    offers: { foundingDiscount: 0.20, label: "Founding Offer −20%" },
+    calculator: {
+      activityFactors: { sedentary:1.2, light:1.375, moderate:1.55, very:1.725, athlete:1.9 },
+      safeWeeklyLossKg: 0.75, safeWeeklyGainKg: 0.45, kcalPerKg: 7700
+    }
+  };
+  const yearEl = $('#year'); if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* ---------- Hero entrance ---------- */
+  const hero = $('.hero');
+  requestAnimationFrame(() => setTimeout(() => hero && hero.classList.add('loaded'), 90));
+
+  /* ---------- Reveal on scroll ---------- */
+  const revealIO = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); revealIO.unobserve(e.target); }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -6% 0px' });
+
+  $$('[data-reveal], .img-reveal, .rule').forEach(el => revealIO.observe(el));
+
+  /* ---------- Kinetic split text ---------- */
+  $$('[data-split]').forEach(el => {
+    const html = el.innerHTML;
+    const parts = html.split(/(<br\s*\/?>)/i);
+    let out = '', i = 0;
+    parts.forEach(part => {
+      if (/<br/i.test(part)) { out += '<br>'; return; }
+      part.split(/\s+/).filter(Boolean).forEach(word => {
+        out += '<span class="word-mask"><span class="split-word" style="transition-delay:' + (i * 62) + 'ms">' + word + '</span></span> ';
+        i++;
+      });
+    });
+    el.innerHTML = out;
+  });
+  const splitIO = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); splitIO.unobserve(e.target); } });
+  }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+  $$('[data-split]').forEach(el => splitIO.observe(el));
+
+  /* ---------- Animated counters ---------- */
+  const easeOutExpo = t => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t));
+  function animateCount(el) {
+    const target = parseFloat(el.dataset.count);
+    const dec = parseInt(el.dataset.dec || '0', 10);
+    const suffix = el.dataset.suffix || '';
+    const dur = 1900;
+    const start = performance.now();
+    function tick(now) {
+      const p = Math.min((now - start) / dur, 1);
+      const val = target * easeOutExpo(p);
+      el.textContent = (dec ? val.toFixed(dec) : Math.round(val).toLocaleString('en-IN')) + suffix;
+      if (p < 1) requestAnimationFrame(tick);
+      else el.textContent = (dec ? target.toFixed(dec) : Math.round(target).toLocaleString('en-IN')) + suffix;
+    }
+    if (reduceMotion) {
+      el.textContent = (dec ? target.toFixed(dec) : Math.round(target).toLocaleString('en-IN')) + suffix;
+    } else requestAnimationFrame(tick);
+  }
+  const countIO = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { animateCount(e.target); countIO.unobserve(e.target); } });
+  }, { threshold: 0.4 });
+  $$('[data-count]').forEach(el => countIO.observe(el));
+
+  /* ---------- Scroll: nav state, progress, parallax, active links ---------- */
+  const nav = $('#nav');
+  const progressBar = $('#progressBar');
+  const toTop = $('#toTop');
+  const heroMedia = $('#heroMedia');
+  const paraEls = $$('[data-parallax]');
+  const sections = $$('section[id]');
+  const navAnchors = $$('#navLinks a');
+  let ticking = false;
+
+  function onScroll() {
+    const y = window.pageYOffset;
+    const docH = document.documentElement.scrollHeight - window.innerHeight;
+
+    if (progressBar) progressBar.style.width = (docH > 0 ? (y / docH) * 100 : 0) + '%';
+    if (nav) nav.classList.toggle('scrolled', y > 40);
+    if (toTop) toTop.classList.toggle('show', y > 640);
+
+    if (heroMedia && y < window.innerHeight * 1.3) {
+      heroMedia.style.transform = 'translate3d(0,' + (y * 0.24) + 'px,0)';
+    }
+
+    if (!reduceMotion && window.innerWidth > 768) {
+      const vh = window.innerHeight;
+      paraEls.forEach(el => {
+        const r = el.getBoundingClientRect();
+        if (r.bottom > -160 && r.top < vh + 160) {
+          const speed = parseFloat(el.dataset.parallax) || 0.08;
+          const offset = (r.top + r.height / 2 - vh / 2) * speed * -1;
+          el.style.transform = 'translate3d(0,' + offset.toFixed(2) + 'px,0)';
+        }
+      });
+    }
+
+    // active nav
+    let current = '';
+    sections.forEach(sec => {
+      if (sec.getBoundingClientRect().top <= 140) current = sec.id;
+    });
+    navAnchors.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + current));
+    ticking = false;
+  }
+  window.addEventListener('scroll', () => {
+    if (!ticking) { ticking = true; requestAnimationFrame(onScroll); }
+  }, { passive: true });
+  onScroll();
+
+  if (toTop) toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  /* ---------- Mobile menu ---------- */
+  const burger = $('#burger');
+  const mobileMenu = $('#mobileMenu');
+  function closeMenu() {
+    if (!mobileMenu) return;
+    mobileMenu.classList.remove('open');
+    burger.classList.remove('open');
+    burger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+    $$('.mm-links a').forEach(a => a.style.transitionDelay = '0ms');
+  }
+  if (burger && mobileMenu) {
+    burger.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      burger.classList.toggle('open', open);
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.body.style.overflow = open ? 'hidden' : '';
+      $$('.mm-links a').forEach((a, i) => a.style.transitionDelay = open ? (120 + i * 55) + 'ms' : '0ms');
+    });
+    $$('a', mobileMenu).forEach(a => a.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+  }
+
+  /* ---------- Magnetic buttons ---------- */
+  if (!reduceMotion && window.matchMedia('(hover:hover)').matches) {
+    $$('.magnetic').forEach(el => {
+      el.addEventListener('mousemove', e => {
+        const r = el.getBoundingClientRect();
+        const x = e.clientX - r.left - r.width / 2;
+        const y = e.clientY - r.top - r.height / 2;
+        el.style.transform = 'translate(' + (x * 0.16).toFixed(2) + 'px,' + (y * 0.22).toFixed(2) + 'px)';
+        const inner = el.querySelector('.magnetic-inner');
+        if (inner) inner.style.transform = 'translate(' + (x * 0.07).toFixed(2) + 'px,' + (y * 0.1).toFixed(2) + 'px)';
+      });
+      el.addEventListener('mouseleave', () => {
+        el.style.transform = '';
+        const inner = el.querySelector('.magnetic-inner');
+        if (inner) inner.style.transform = '';
+      });
+    });
+  }
+
+  /* ---------- Program filters ---------- */
+  const progFilters = $('#progFilters');
+  if (progFilters) {
+    progFilters.addEventListener('click', e => {
+      const btn = e.target.closest('.chip');
+      if (!btn) return;
+      $$('.chip', progFilters).forEach(c => { c.classList.remove('active'); c.setAttribute('aria-selected', 'false'); });
+      btn.classList.add('active'); btn.setAttribute('aria-selected', 'true');
+      const filter = btn.dataset.filter;
+      $$('#progGrid .prog-card').forEach((card, i) => {
+        const match = filter === 'all' || (card.dataset.cat || '').split(' ').includes(filter);
+        if (match) {
+          card.classList.remove('hidden');
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(22px)';
+          setTimeout(() => { card.style.opacity = '1'; card.style.transform = 'none'; }, 45 + i * 55);
+        } else {
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(12px)';
+          setTimeout(() => card.classList.add('hidden'), 250);
+        }
+      });
+    });
+  }
+
+  /* ---------- Program card → booking prefill ---------- */
+  $$('#progGrid .prog-card').forEach(card => {
+    const go = () => {
+      const name = card.dataset.program;
+      $$('#booking .opt-grid[data-single="program"] .opt').forEach(o => {
+        o.classList.toggle('selected', o.dataset.value === name);
+      });
+      updateSummary();
+      document.getElementById('booking').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+    card.addEventListener('click', go);
+    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+  });
+
+  /* ---------- Trainer → booking prefill ---------- */
+  $$('.trainer-link').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const t = btn.dataset.trainer;
+      $$('#booking .opt-grid[data-single="trainer"] .opt').forEach(o => {
+        o.classList.toggle('selected', o.dataset.value === t);
+      });
+      updateSummary();
+      document.getElementById('booking').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  /* ---------- Pricing toggle ---------- */
+  const priceBtns = $$('.toggle-btn[data-price-mode]');
+  priceBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      priceBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const mode = btn.dataset.priceMode;
+      $$('[data-price]').forEach(el => {
+        const base = parseFloat(el.dataset.price);
+        const val = mode === 'offer' ? Math.round(base * (1 - CMS.offers.foundingDiscount)) : base;
+        tweenNumber(el, val);
+        const card = el.closest('.price-card');
+        const saveEl = card ? card.querySelector('[data-save]') : null;
+        if (saveEl) {
+          saveEl.textContent = mode === 'offer'
+            ? 'You save ₹' + (base - val).toLocaleString('en-IN') + ' — limited period'
+            : '\u00A0';
+        }
+      });
+    });
+  });
+  function tweenNumber(el, target) {
+    const from = parseFloat((el.textContent || '0').replace(/[^\d.]/g, '')) || 0;
+    const start = performance.now(), dur = 520;
+    function step(now) {
+      const p = Math.min((now - start) / dur, 1);
+      const v = Math.round(from + (target - from) * easeOutExpo(p));
+      el.textContent = v.toLocaleString('en-IN');
+      if (p < 1) requestAnimationFrame(step);
+    }
+    if (reduceMotion) el.textContent = target.toLocaleString('en-IN');
+    else requestAnimationFrame(step);
+  }
+
+  /* ---------- FAQ accordion ---------- */
+  $$('.faq-item').forEach(item => {
+    const q = item.querySelector('.faq-q');
+    const a = item.querySelector('.faq-a');
+    if (!q || !a) return;
+    q.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      $$('.faq-item.open').forEach(other => {
+        if (other !== item) {
+          other.classList.remove('open');
+          other.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+          other.querySelector('.faq-a').style.maxHeight = '0px';
+        }
+      });
+      item.classList.toggle('open', !isOpen);
+      q.setAttribute('aria-expanded', String(!isOpen));
+      a.style.maxHeight = isOpen ? '0px' : a.scrollHeight + 'px';
+    });
+  });
+  window.addEventListener('resize', () => {
+    const open = $('.faq-item.open');
+    if (open) {
+      const a = open.querySelector('.faq-a');
+      a.style.maxHeight = a.scrollHeight + 'px';
+    }
+  });
+
+  /* ---------- Testimonials carousel ---------- */
+  const track = $('#tTrack');
+  if (track) {
+    const slides = $$('.t-slide', track);
+    const dotsWrap = $('#tDots');
+    let index = 0, autoTimer;
+
+    slides.forEach((_, i) => {
+      const dot = document.createElement('button');
+      dot.className = 't-dot' + (i === 0 ? ' active' : '');
+      dot.setAttribute('aria-label', 'Go to testimonial ' + (i + 1));
+      dot.addEventListener('click', () => { goTo(i); restart(); });
+      dotsWrap.appendChild(dot);
+    });
+    const dots = $$('.t-dot', dotsWrap);
+
+    function goTo(i) {
+      index = (i + slides.length) % slides.length;
+      track.style.transform = 'translateX(' + (-index * 100) + '%)';
+      dots.forEach((d, k) => d.classList.toggle('active', k === index));
+    }
+    function restart() {
+      clearInterval(autoTimer);
+      if (!reduceMotion) autoTimer = setInterval(() => goTo(index + 1), 7200);
+    }
+    $('#tPrev').addEventListener('click', () => { goTo(index - 1); restart(); });
+    $('#tNext').addEventListener('click', () => { goTo(index + 1); restart(); });
+
+    // swipe
+    let sx = 0, dx = 0, dragging = false;
+    track.addEventListener('touchstart', e => { sx = e.touches[0].clientX; dragging = true; }, { passive: true });
+    track.addEventListener('touchmove', e => { if (dragging) dx = e.touches[0].clientX - sx; }, { passive: true });
+    track.addEventListener('touchend', () => {
+      if (Math.abs(dx) > 48) goTo(index + (dx < 0 ? 1 : -1));
+      dragging = false; dx = 0; restart();
+    });
+    restart();
+  }
+
+  /* ---------- Before / After sliders ---------- */
+  $$('[data-ba]').forEach(ba => {
+    const afterImg = ba.querySelector('.after-img');
+    const divider = ba.querySelector('.divider');
+    const handle = ba.querySelector('.handle');
+    if (!afterImg || !divider || !handle) return;
+    let active = false;
+
+    function setPosition(clientX) {
+      const r = ba.getBoundingClientRect();
+      let pct = ((clientX - r.left) / r.width) * 100;
+      pct = Math.max(3, Math.min(97, pct));
+      afterImg.style.clipPath = 'inset(0 0 0 ' + pct + '%)';
+      divider.style.left = pct + '%';
+      handle.style.left = pct + '%';
+    }
+    ba.addEventListener('pointerdown', e => {
+      active = true;
+      ba.setPointerCapture(e.pointerId);
+      setPosition(e.clientX);
+    });
+    ba.addEventListener('pointermove', e => { if (active) setPosition(e.clientX); });
+    ba.addEventListener('pointerup', () => active = false);
+    ba.addEventListener('pointercancel', () => active = false);
+    ba.addEventListener('mouseenter', e => { if (window.matchMedia('(hover:hover)').matches) setPosition(e.clientX); });
+  });
+
+  /* ---------- Gallery lightbox ---------- */
+  const lightbox = $('#lightbox');
+  const lbImg = $('#lbImg');
+  const lbCap = $('#lbCap');
+  const galItems = $$('#galGrid .gal-item');
+  let lbIndex = 0;
+
+  function openLightbox(i) {
+    lbIndex = (i + galItems.length) % galItems.length;
+    const item = galItems[lbIndex];
+    const full = item.dataset.full || (item.querySelector('img') ? item.querySelector('img').src : '');
+    lbImg.src = full;
+    lbImg.alt = (item.querySelector('.cap') ? item.querySelector('.cap').textContent : 'Aura Fitness Club');
+    lbCap.textContent = lbImg.alt;
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  galItems.forEach((item, i) => {
+    item.addEventListener('click', () => openLightbox(i));
+    item.setAttribute('tabindex', '0');
+    item.addEventListener('keydown', e => { if (e.key === 'Enter') openLightbox(i); });
+  });
+  $('#lbClose').addEventListener('click', closeLightbox);
+  $('#lbPrev').addEventListener('click', e => { e.stopPropagation(); openLightbox(lbIndex - 1); });
+  $('#lbNext').addEventListener('click', e => { e.stopPropagation(); openLightbox(lbIndex + 1); });
+  lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', e => {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') openLightbox(lbIndex - 1);
+    if (e.key === 'ArrowRight') openLightbox(lbIndex + 1);
+  });
+
+  /* =========================================================
+     FITNESS CALCULATOR
+     ========================================================= */
+  let gender = 'male';
+  let goal = 'lose';
+
+  $$('[data-gender]').forEach(btn => btn.addEventListener('click', () => {
+    $$('[data-gender]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    gender = btn.dataset.gender;
+  }));
+  $$('[data-goal]').forEach(btn => btn.addEventListener('click', () => {
+    $$('[data-goal]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    goal = btn.dataset.goal;
+  }));
+
+  $$('[data-calc-tab]').forEach(tab => {
+    tab.addEventListener('click', () => {
+      $$('[data-calc-tab]').forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      tab.classList.add('active'); tab.setAttribute('aria-selected', 'true');
+    });
+  });
+
+  const calcForm = $('#calcForm');
+  if (calcForm) {
+    calcForm.addEventListener('submit', e => {
+      e.preventDefault();
+      const age = parseFloat($('#cAge').value);
+      const height = parseFloat($('#cHeight').value);
+      const weight = parseFloat($('#cWeight').value);
+      const neck = parseFloat($('#cNeck').value) || 38;
+      const waist = parseFloat($('#cWaist').value) || 88;
+      const hip = parseFloat($('#cHip').value) || 95;
+      const activity = parseFloat($('#cActivity').value);
+
+      if (!age || !height || !weight) return;
+
+      const heightM = height / 100;
+      const bmi = weight / (heightM * heightM);
+      let bmiCat = 'Normal weight';
+      if (bmi < 18.5) bmiCat = 'Underweight';
+      else if (bmi < 25) bmiCat = 'Normal weight';
+      else if (bmi < 30) bmiCat = 'Overweight';
+      else bmiCat = 'Obese';
+
+      const s = gender === 'male' ? 5 : -161;
+      const bmr = 10 * weight + 6.25 * height - 5 * age + s;
+      const tdee = bmr * activity;
+
+      let goalCal = tdee, adjustment = 0, weekly = 0, freq = 4, freqLabel = 'Moderate';
+      if (goal === 'lose') {
+        adjustment = -Math.min(550, tdee * 0.2);
+        goalCal = tdee + adjustment;
+        weekly = (adjustment * 7) / CMS.calculator.kcalPerKg;
+        freq = 5; freqLabel = 'Fat loss focus';
+      } else if (goal === 'gain') {
+        adjustment = Math.min(420, tdee * 0.15);
+        goalCal = tdee + adjustment;
+        weekly = (adjustment * 7) / CMS.calculator.kcalPerKg;
+        freq = 5; freqLabel = 'Hypertrophy focus';
+      } else {
+        weekly = 0; freq = 4; freqLabel = 'Maintenance';
+      }
+
+      // Body fat — Deurenberg
+      const sexConst = gender === 'male' ? 1 : 0;
+      let bodyFat = 1.20 * bmi + 0.23 * age - 10.8 * sexConst - 5.4;
+      // Navy tape method refinement when measurements provided
+      if (neck > 0 && waist > 0) {
+        if (gender === 'male' && waist > neck) {
+          const navy = 495 / (1.0324 - 0.19077 * Math.log10(waist - neck) + 0.15456 * Math.log10(height)) - 450;
+          if (isFinite(navy) && navy > 2 && navy < 60) bodyFat = navy;
+        } else if (gender === 'female' && (waist + hip) > neck) {
+          const navy = 495 / (1.29579 - 0.35004 * Math.log10(waist + hip - neck) + 0.22100 * Math.log10(height)) - 450;
+          if (isFinite(navy) && navy > 5 && navy < 65) bodyFat = navy;
+        }
+      }
+
+      const idealMin = 18.5 * heightM * heightM;
+      const idealMax = 24.9 * heightM * heightM;
+
+      // Update UI
+      $('#rBMI').textContent = bmi.toFixed(1);
+      $('#rBMICat').textContent = bmiCat;
+      $('#rBMR').textContent = Math.round(bmr).toLocaleString('en-IN');
+      $('#rTDEE').textContent = Math.round(tdee).toLocaleString('en-IN');
+      $('#rTDEESub').textContent = 'maintenance calories';
+      $('#rGoalCal').textContent = Math.round(goalCal).toLocaleString('en-IN');
+      $('#rGoalSub').textContent = goal === 'lose' ? 'calorie deficit target'
+        : goal === 'gain' ? 'calorie surplus target' : 'maintain current weight';
+      $('#rBF').textContent = bodyFat.toFixed(1) + '%';
+      $('#rIdeal').textContent = idealMin.toFixed(0) + '–' + idealMax.toFixed(0) + ' kg';
+
+      const badge = $('#bmiBadge');
+      badge.textContent = bmiCat + ' · BMI ' + bmi.toFixed(1);
+
+      const headline = $('#resultHeadline');
+      headline.textContent = goal === 'lose' ? 'Your fat-loss blueprint is ready'
+        : goal === 'gain' ? 'Your muscle-building blueprint is ready'
+        : 'Your maintenance blueprint is ready';
+
+      // Macros
+      const proteinGrams = Math.round(weight * (goal === 'gain' ? 2.0 : 1.8));
+      const fatGrams = Math.round((goalCal * 0.25) / 9);
+      const carbGrams = Math.round(Math.max(0, (goalCal - proteinGrams * 4 - fatGrams * 9) / 4));
+      $('#bProtein').textContent = proteinGrams + 'g';
+      $('#bCarbs').textContent = carbGrams + 'g';
+      $('#bFats').textContent = fatGrams + 'g';
+      $('#bWeekly').textContent = (weekly === 0 ? '±0.0' : (weekly > 0 ? '+' : '') + weekly.toFixed(2)) + ' kg';
+      $('#bFreq').textContent = freq + ' days';
+
+      const barVals = [
+        Math.min(100, (proteinGrams * 4 / goalCal) * 100 * 1.6),
+        Math.min(100, (carbGrams * 4 / goalCal) * 100 * 1.6),
+        Math.min(100, (fatGrams * 9 / goalCal) * 100 * 1.6),
+        Math.min(100, Math.abs(weekly) / 1.0 * 100),
+        (freq / 7) * 100
+      ];
+      $$('#macroBars .bar-fill').forEach((bar, i) => {
+        bar.style.width = '0%';
+        setTimeout(() => { bar.style.width = Math.max(6, barVals[i] || 0) + '%'; }, 90 + i * 110);
+      });
+
+      // Projection chart
+      const pts = [];
+      const labels = [];
+      for (let w = 0; w <= 12; w++) {
+        pts.push(+(weight + weekly * w).toFixed(2));
+        labels.push(w === 0 ? 'Now' : (w % 3 === 0 ? 'W' + w : ''));
+      }
+      drawChart($('#projectionChart'), pts, labels, '#e0202b', 'projGrad');
+
+      // Routine variations
+      buildRoutine(goal, freq);
+
+      const panel = $('#resultsPanel');
+      if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+
+  function buildRoutine(goalType, freq) {
+    const grid = $('#routineGrid');
+    if (!grid) return;
+    const plans = {
+      lose: [
+        ['Day 1', 'Full Body Strength', 'Squat, bench press, bent-over row, plank — 3 × 10.'],
+        ['Day 2', 'Cardio Intervals', '25 min: 1 min fast / 1 min easy on bike or treadmill.'],
+        ['Day 3', 'Upper Body + Core', 'Shoulder press, pulldown, push-ups, dead bug — 3 × 12.'],
+        ['Day 4', 'Active Recovery', '30 min brisk walk + 15 min mobility and stretching.'],
+        ['Day 5', 'Lower Body Strength', 'Deadlift pattern, lunges, leg curl, calf raises — 3 × 12.'],
+        ['Day 6', 'HIIT Circuit', '5 rounds: kettlebell swing, burpee, mountain climber, rest.'],
+        ['Day 7', 'Full Rest', 'Sleep 7–8 hours, hydration focus, light stretching only.']
+      ],
+      gain: [
+        ['Day 1', 'Push — Chest/Shoulders', 'Bench press, incline dumbbell press, shoulder press — 4 × 8.'],
+        ['Day 2', 'Pull — Back/Biceps', 'Pull-ups, barbell row, lat pulldown, curls — 4 × 8.'],
+        ['Day 3', 'Active Recovery', 'Light cardio 20 min + mobility work for hips and shoulders.'],
+        ['Day 4', 'Legs & Glutes', 'Squat, Romanian deadlift, leg press, calf raises — 4 × 8.'],
+        ['Day 5', 'Upper Hypertrophy', 'Incline press, cable row, lateral raises — 3 × 12.'],
+        ['Day 6', 'Full Body Power', 'Deadlift, push press, weighted carries — 4 × 5.'],
+        ['Day 7', 'Rest & Nutrition', 'Prioritise protein intake, sleep and complete recovery.']
+      ],
+      maintain: [
+        ['Day 1', 'Full Body Strength', 'Compound lifts, 3 sets of 8–10, controlled tempo.'],
+        ['Day 2', 'Cardio & Mobility', '30 min steady-state cardio + 10 min mobility flow.'],
+        ['Day 3', 'Upper Body', 'Press, pull, shoulder and arm work — 3 × 10.'],
+        ['Day 4', 'Rest or Yoga', 'Gentle yoga, walking or complete rest.'],
+        ['Day 5', 'Lower Body', 'Squat, hinge, lunge and calf patterns — 3 × 10.'],
+        ['Day 6', 'Functional Circuit', 'Sled push, kettlebell, ropes, bodyweight circuit.'],
+        ['Day 7', 'Recovery', 'Stretching, hydration and sleep optimisation.']
+      ]
+    };
+    const plan = plans[goalType] || plans.maintain;
+    grid.innerHTML = plan.map(d =>
+      '<div class="routine-day"><div class="d">' + d[0] + '</div><div class="t">' + d[1] + '</div><div class="s">' + d[2] + '</div></div>'
+    ).join('');
+  }
+
+  /* ---------- Chart drawing ---------- */
+  function drawChart(svg, values, labels, color, gradId) {
+    if (!svg) return;
+    const w = 600, h = 220, padX = 34, padY = 32;
+    const min = Math.min.apply(null, values);
+    const max = Math.max.apply(null, values);
+    const range = (max - min) || 1;
+    const pts = values.map((v, i) => {
+      const x = padX + i * (w - padX * 2) / Math.max(1, (values.length - 1));
+      const y = h - padY - ((v - min) / range) * (h - padY * 2);
+      return [x, y];
+    });
+    const line = pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+    const area = line + ' L ' + pts[pts.length - 1][0].toFixed(1) + ' ' + (h - padY) + ' L ' + pts[0][0].toFixed(1) + ' ' + (h - padY) + ' Z';
+
+    let gridLines = '';
+    for (let g = 0; g <= 3; g++) {
+      const gy = padY + g * (h - padY * 2) / 3;
+      gridLines += '<line x1="' + padX + '" y1="' + gy + '" x2="' + (w - padX) + '" y2="' + gy + '" stroke="rgba(255,255,255,.09)" stroke-width="1"/>';
+    }
+
+    let labelMarkup = '';
+    labels.forEach((l, i) => {
+      if (!l) return;
+      labelMarkup += '<text x="' + pts[i][0].toFixed(1) + '" y="' + (h - 8) + '" fill="rgba(255,255,255,.45)" font-size="12" text-anchor="middle" font-family="Inter, sans-serif">' + l + '</text>';
+    });
+
+    const dots = pts.map((p, i) =>
+      '<circle cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="' + (i === pts.length - 1 ? 5.5 : 3.4) + '" fill="#121212" stroke="' + color + '" stroke-width="2.2"/>'
+    ).join('');
+
+    svg.innerHTML =
+      '<defs><linearGradient id="' + gradId + '" x1="0" y1="0" x2="0" y2="1">' +
+      '<stop offset="0%" stop-color="' + color + '" stop-opacity="0.34"/>' +
+      '<stop offset="100%" stop-color="' + color + '" stop-opacity="0"/></linearGradient></defs>' +
+      gridLines +
+      '<path d="' + area + '" fill="url(#' + gradId + ')" opacity="0" style="transition:opacity .9s ease .25s" class="chart-area-el"/>' +
+      '<path d="' + line + '" fill="none" stroke="' + color + '" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="chart-line-el"/>' +
+      dots + labelMarkup;
+
+    const path = svg.querySelector('.chart-line-el');
+    const areaEl = svg.querySelector('.chart-area-el');
+    try {
+      const len = path.getTotalLength();
+      path.style.strokeDasharray = len;
+      path.style.strokeDashoffset = len;
+      requestAnimationFrame(() => {
+        path.style.transition = 'stroke-dashoffset 1.35s cubic-bezier(.16,1,.3,1)';
+        path.style.strokeDashoffset = '0';
+        areaEl.style.opacity = '1';
+      });
+    } catch (err) {
+      areaEl.style.opacity = '1';
+    }
+  }
+
+  /* =========================================================
+     PROGRESS PLANNER
+     ========================================================= */
+  const planGrid = $('#planGrid');
+  function generatePlan(e) {
+    if (e) e.preventDefault();
+    const current = parseFloat($('#pCurrent').value);
+    const target = parseFloat($('#pTarget').value);
+    const goalType = $('#pGoal').value;
+    const level = $('#pActivity').value;
+    const days = parseInt($('#pDays').value, 10);
+
+    if (!current || !target) return;
+
+    const diff = target - current;
+    const weeklyRate = goalType === 'gain' ? 0.35 : goalType === 'lose' ? (level === 'advanced' ? 0.75 : 0.55) : 0.25;
+    const weeks = diff === 0 ? 12 : Math.max(4, Math.ceil(Math.abs(diff) / weeklyRate));
+
+    const templates = {
+      lose: [
+        ['Strength — Full Body', 'Compound lifts + supersets to preserve lean mass while cutting.', '55 min'],
+        ['Cardio Intervals', 'HIIT on bike or treadmill: 40s hard / 20s easy × 10 rounds.', '30 min'],
+        ['Upper Body + Core', 'Push/pull split with focused core stability work.', '50 min'],
+        ['Active Recovery', 'Brisk walk, foam rolling and mobility drills.', '35 min'],
+        ['Lower Body Strength', 'Squat, hinge and single-leg patterns for metabolic demand.', '55 min'],
+        ['Metabolic Circuit', 'Kettlebell, sled and bodyweight circuits with short rest.', '40 min'],
+        ['Rest', 'Complete rest, hydration and sleep optimisation.', '—']
+      ],
+      gain: [
+        ['Push — Chest/Shoulders', 'Heavy pressing with progressive overload focus.', '65 min'],
+        ['Pull — Back/Biceps', 'Vertical and horizontal pulling with tempo control.', '65 min'],
+        ['Active Recovery', 'Light cardio, mobility and soft-tissue work.', '30 min'],
+        ['Legs & Glutes', 'Squat, deadlift and accessory lower-body volume.', '70 min'],
+        ['Upper Hypertrophy', 'Higher rep isolation and pump-focused training.', '55 min'],
+        ['Power & Core', 'Explosive movements, carries and anti-rotation core.', '45 min'],
+        ['Rest', 'Full recovery — growth happens outside the gym.', '—']
+      ],
+      recomp: [
+        ['Full Body Strength', 'Compound lifts at moderate-heavy loads.', '55 min'],
+        ['Cardio + Core', 'Steady-state cardio with core stability circuit.', '40 min'],
+        ['Upper Body', 'Balanced push/pull work with controlled tempo.', '50 min'],
+        ['Active Recovery', 'Yoga flow, walking and mobility.', '30 min'],
+        ['Lower Body', 'Squat, hinge, lunge and posterior chain focus.', '55 min'],
+        ['Functional Circuit', 'Kettlebell, ropes and sled work in intervals.', '40 min'],
+        ['Rest', 'Complete rest and nutrition tracking.', '—']
+      ],
+      fitness: [
+        ['Full Body Circuit', 'Machine and dumbbell circuit for general strength.', '45 min'],
+        ['Cardio & Mobility', 'Bike, rower and dynamic mobility work.', '35 min'],
+        ['Group Class', 'Zumba, aerobics or group strength session.', '50 min'],
+        ['Rest', 'Light walking and stretching.', '—'],
+        ['Strength & Balance', 'Functional patterns and stability training.', '45 min'],
+        ['Outdoor / Sports', 'Walk, jog, swim or a recreational sport.', '45 min'],
+        ['Rest', 'Complete rest day.', '—']
+      ]
+    };
+
+    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    let tpl = templates[goalType] || templates.fitness;
+
+    // Adjust to selected training days: convert extras to active rest
+    const trainIdx = [0, 1, 2, 4, 5, 3].slice(0, days);
+    const html = daysOfWeek.map((day, i) => {
+      const isTrain = trainIdx.indexOf(i) !== -1;
+      const item = isTrain ? tpl[i] : (goalType === 'gain' && days >= 5 ? tpl[i] : ['Rest / Active Recovery', 'Light walk, mobility or complete rest.', '—']);
+      return '<div class="plan-day' + (isTrain ? '' : ' rest') + '">' +
+        '<div class="day">' + day + '</div>' +
+        '<div class="type">' + (isTrain ? item[0] : 'Rest Day') + '</div>' +
+        '<div class="det">' + (isTrain ? item[1] : 'Prioritise recovery, hydration and 7–8 hours of sleep.') + '</div>' +
+        '<div class="dur">' + (isTrain ? item[2] : '—') + '</div>' +
+      '</div>';
+    }).join('');
+    planGrid.innerHTML = html;
+
+    // Highlights
+    const cardioSessions = goalType === 'lose' ? 3 : goalType === 'gain' ? 2 : 3;
+    const restDays = 7 - days;
+    const dailyDelta = goalType === 'gain' ? 380 : goalType === 'lose' ? -520 : 0;
+    $('#hlTimeline').textContent = diff === 0 ? '12 weeks (maintenance)' : weeks + ' weeks approx.';
+    $('#hlWeekly').textContent = (diff >= 0 ? '+' : '') + (diff === 0 ? '0.0' : (Math.abs(diff) / weeks).toFixed(2)) + ' kg';
+    $('#hlCardio').textContent = cardioSessions + ' sessions';
+    $('#hlRest').textContent = restDays + ' days';
+    $('#hlCal').textContent = Math.round(2200 + dailyDelta) + ' kcal';
+    $('#planSummary').textContent = days + ' training days · ' + (goalType === 'lose' ? 'fat loss focus' : goalType === 'gain' ? 'muscle gain focus' : goalType === 'recomp' ? 'recomposition focus' : 'general fitness');
+
+    // Timeline chart
+    const pts = [], labels = [];
+    const totalWeeks = Math.min(weeks, 16);
+    for (let i = 0; i <= totalWeeks; i++) {
+      pts.push(+(current + (diff / totalWeeks) * i).toFixed(2));
+      labels.push(i === 0 ? 'Start' : (i === totalWeeks ? 'Goal' : (i % Math.ceil(totalWeeks / 4) === 0 ? 'W' + i : '')));
+    }
+    drawChart($('#planChart'), pts, labels, '#e0202b', 'planGrad');
+  }
+
+  const plannerForm = $('#plannerForm');
+  if (plannerForm) {
+    plannerForm.addEventListener('submit', generatePlan);
+    generatePlan();
+    // live regenerate on change
+    ['#pGoal', '#pActivity', '#pDays'].forEach(sel => {
+      const el = $(sel);
+      if (el) el.addEventListener('change', () => generatePlan());
+    });
+  }
+
+  /* =========================================================
+     BOOKING WIZARD
+     ========================================================= */
+  const bookingState = {
+    step: 1,
+    experience: 'Free Trial Session',
+    program: 'Strength Training',
+    trainer: 'No Preference',
+    date: '',
+    time: '06:00 PM',
+    session: '60 Minute Session'
+  };
+
+  // date default
+  const dateInput = $('#bDate');
+  if (dateInput) {
+    const today = new Date();
+    const tomorrow = new Date(today.getTime() + 86400000);
+    const iso = tomorrow.toISOString().split('T')[0];
+    dateInput.value = iso;
+    dateInput.min = today.toISOString().split('T')[0];
+    bookingState.date = iso;
+    dateInput.addEventListener('change', () => { bookingState.date = dateInput.value; updateSummary(); });
+  }
+
+  // option groups
+  $$('#booking .opt-grid[data-single]').forEach(group => {
+    group.addEventListener('click', e => {
+      const opt = e.target.closest('.opt');
+      if (!opt) return;
+      $$('.opt', group).forEach(o => o.classList.remove('selected'));
+      opt.classList.add('selected');
+      const key = group.dataset.single;
+      bookingState[key] = opt.dataset.value;
+      updateSummary();
+    });
+  });
+
+  // slots
+  const slotGrid = $('#slotGrid');
+  if (slotGrid) {
+    slotGrid.addEventListener('click', e => {
+      const slot = e.target.closest('.slot');
+      if (!slot || slot.classList.contains('disabled')) return;
+      $$('.slot', slotGrid).forEach(s => s.classList.remove('selected'));
+      slot.classList.add('selected');
+      bookingState.time = slot.textContent.trim();
+      updateSummary();
+    });
+  }
+  const sessionSelect = $('#bSession');
+  if (sessionSelect) sessionSelect.addEventListener('change', () => {
+    bookingState.session = sessionSelect.value;
+    updateSummary();
+  });
+
+  function formatDate(d) {
+    if (!d) return 'Select date';
+    const parts = d.split('-');
+    if (parts.length !== 3) return d;
+    const dt = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10));
+    return dt.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' });
+  }
+
+  function updateSummary() {
+    const map = {
+      sExperience: bookingState.experience,
+      sProgram: bookingState.program,
+      sTrainer: bookingState.trainer,
+      sDate: formatDate(bookingState.date),
+      sTime: bookingState.time,
+      sSession: bookingState.session
+    };
+    Object.keys(map).forEach(id => { const el = $('#' + id); if (el) el.textContent = map[id]; });
+  }
+  updateSummary();
+
+  const stepsEls = $$('#bookingSteps .step');
+  const stepLines = $$('#bookingSteps .step-line');
+  const bsteps = $$('.bstep');
+  const prevBtn = $('#prevStep');
+  const nextBtn = $('#nextStep');
+  const bookingNav = $('#bookingNav');
+
+  function showStep(n) {
+    bookingState.step = n;
+    bsteps.forEach(s => s.classList.toggle('active', parseInt(s.dataset.step, 10) === n));
+    const visualStep = Math.min(n, 5);
+    stepsEls.forEach((s, i) => {
+      s.classList.toggle('active', i + 1 === visualStep);
+      s.classList.toggle('done', i + 1 < visualStep);
+    });
+    stepLines.forEach((l, i) => l.classList.toggle('done', i + 1 < visualStep));
+    if (bookingNav) bookingNav.style.display = (n >= 6) ? 'none' : 'flex';
+    if (prevBtn) prevBtn.style.display = (n > 1 && n < 6) ? 'inline-flex' : 'none';
+    if (nextBtn) {
+      nextBtn.querySelector('.magnetic-inner').textContent = (n === 5) ? 'Confirm Booking' : 'Continue';
+    }
+    const form = $('.panel[data-reveal], .booking-shell .panel');
+    if (form && n > 1) {
+      const top = form.getBoundingClientRect().top + window.pageYOffset - 120;
+      if (Math.abs(window.pageYOffset - top) > 240) window.scrollTo({ top: top, behavior: 'smooth' });
+    }
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      const current = bookingState.step;
+      if (current === 5) {
+        const name = $('#bName'), phone = $('#bPhone'), email = $('#bEmail');
+        let valid = true;
+        [name, phone, email].forEach(f => {
+          if (!f.value.trim()) {
+            valid = false;
+            f.style.borderColor = '#e0202b';
+            f.addEventListener('input', () => f.style.borderColor = '', { once: true });
+          }
+        });
+        if (!valid) return;
+
+        $('#cId').textContent = 'AURA-' + Math.random().toString(36).slice(2, 7).toUpperCase() + '-' + new Date().getFullYear();
+        $('#cExperience').textContent = bookingState.experience;
+        $('#cProgram').textContent = bookingState.program;
+        $('#cTrainer').textContent = bookingState.trainer;
+        $('#cDateTime').textContent = formatDate(bookingState.date) + ' · ' + bookingState.time;
+        $('#cName').textContent = name.value.trim();
+        showStep(6);
+        return;
+      }
+      if (current < 5) showStep(current + 1);
+    });
+  }
+  if (prevBtn) prevBtn.addEventListener('click', () => { if (bookingState.step > 1) showStep(bookingState.step - 1); });
+
+  const restart = $('#restartBooking');
+  if (restart) restart.addEventListener('click', () => {
+    const bf = $('#bookingForm');
+    if (bf) bf.reset();
+    showStep(1);
+    document.getElementById('booking').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  /* =========================================================
+     FORMS (demo submit)
+     ========================================================= */
+  const contactForm = $('#contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', e => {
+      e.preventDefault();
+      const name = $('#fName'), phone = $('#fPhone');
+      let valid = true;
+      [name, phone].forEach(f => {
+        if (!f.value.trim()) {
+          valid = false;
+          f.style.borderColor = '#e0202b';
+          f.addEventListener('input', () => f.style.borderColor = '', { once: true });
+        }
+      });
+      if (!valid) return;
+      const msg = $('#contactMsg');
+      msg.classList.add('show');
+      contactForm.reset();
+      setTimeout(() => msg.classList.remove('show'), 7000);
+    });
+  }
+
+  const newsletterForm = $('#newsletterForm');
+  if (newsletterForm) {
+    newsletterForm.addEventListener('submit', e => {
+      e.preventDefault();
+      const email = $('#nlEmail');
+      if (!email.value.trim() || email.value.indexOf('@') === -1) {
+        email.style.borderColor = '#e0202b';
+        email.addEventListener('input', () => email.style.borderColor = '', { once: true });
+        return;
+      }
+      const msg = $('#nlMsg');
+      msg.classList.add('show');
+      newsletterForm.reset();
+      setTimeout(() => msg.classList.remove('show'), 7000);
+    });
+  }
+
+  /* ---------- Smooth anchor for older browsers + offset safety ---------- */
+  $$('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const id = a.getAttribute('href');
+      if (!id || id === '#' || id.length < 2) return;
+      const target = document.querySelector(id);
+      if (!target) return;
+      e.preventDefault();
+      const top = target.getBoundingClientRect().top + window.pageYOffset - 82;
+      window.scrollTo({ top: top, behavior: reduceMotion ? 'auto' : 'smooth' });
+    });
+  });
+
+  /* ---------- Image fallback ---------- */
+  const fallback = 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=80';
+  $$('img').forEach(img => {
+    img.addEventListener('error', function handler() {
+      img.removeEventListener('error', handler);
+      if (img.src !== fallback) img.src = fallback;
+    });
+  });
+
+  /* ---------- Keyboard accessibility for opt cards ---------- */
+  $$('.opt').forEach(opt => {
+    opt.setAttribute('type', 'button');
+    opt.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); opt.click(); }
+    });
+  });
+
+  /* ---------- Final safety: reveal anything already in view ---------- */
+  setTimeout(() => {
+    $$('[data-reveal], .img-reveal, .rule').forEach(el => {
+      const r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight && r.bottom > 0) el.classList.add('in');
+    });
+  }, 260);
+
+})();
+</script>
+</body>
+</html>
